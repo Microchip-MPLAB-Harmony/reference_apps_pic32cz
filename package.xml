@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<Package name="replaceme">
+<Package name="reference_apps_pic32cz">
     <Dependencies>
+        <Dependency name="csp" version="v3.20.0-E1"/>
     </Dependencies>
 </Package>
