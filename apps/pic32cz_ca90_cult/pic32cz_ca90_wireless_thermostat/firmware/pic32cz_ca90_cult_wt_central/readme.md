@@ -59,6 +59,9 @@ alt="A red circuit board with a blue and red chip Description automatically gene
 style="width:700px;height:auto;"
 alt="A red circuit board with a blue and red chip Description automatically generated" />
 
+**Note: Change the PIC32CX macro to PIC32C in the module.py in the harmony path/wireless_rnbd/config which adds the RNBD support for all the PIC32C devices. Since this modification is needed for launching the MCC.**
+<p align = "center"> <img src="images/rnbd_support.jpg"/>
+
 ## Hardware Used:
 
 - [PIC32CZ CA90 Curiosity Ultra Development

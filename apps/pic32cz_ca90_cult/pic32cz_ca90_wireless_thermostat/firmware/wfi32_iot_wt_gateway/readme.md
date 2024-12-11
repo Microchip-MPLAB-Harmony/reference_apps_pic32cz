@@ -97,6 +97,8 @@ v3 packages, refer to document [How to Use the MPLAB® Harmony v3 Project
 Manifest
 Feature](https://ww1.microchip.com/downloads/en/DeviceDoc/How-to-Use-the-MPLAB-Harmony-v3-Project-Manifest-Feature-DS90003305.pdf)</span>
 
+**Note: This project uses version 5.4.0 of the wolfSSL package to demonstrate this application. Please use the same version to build and run the application.**
+
 ## Pre-requisites:
 
 - The WFI32E01PC module on the WFI32 IoT Development Board has an in-built Trust and
