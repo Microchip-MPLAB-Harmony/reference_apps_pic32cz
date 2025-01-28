@@ -14361,7 +14361,7 @@
       </entry>
       <entry>
          <file>..\src\config\pic32cz_ca90_cult\definitions.h</file>
-         <hash>e89ba6afb9c4c389cb6344701756cee7f78b8e2d76e642bfb3d8e4601feeb497</hash>
+         <hash>d54db9ec7e7db03310c3689e2ef5f4acc16f1fc4b1840cd792edb2cb0b8e7f63</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32cz_ca90_cult\device.h</file>
@@ -14421,7 +14421,7 @@
       </entry>
       <entry>
          <file>..\src\config\pic32cz_ca90_cult\initialization.c</file>
-         <hash>9ad3b7c2d98c68b55a7b4da50295cbfe4592aefddac50513754469b1dcdf7765</hash>
+         <hash>fe7fc6b73a9c139c09db7e92cf76b8d556a6cafb00cca498cf6a61df1f6c7a0c</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32cz_ca90_cult\interrupts.c</file>

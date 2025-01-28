@@ -60,7 +60,7 @@
 // *****************************************************************************
 // *****************************************************************************
 #define APP_EEPROM_I2C_CLOCK_SPEED                  400000
-#define APP_EEPROM_I2C_SLAVE_ADDR                   0x0053
+#define APP_EEPROM_I2C_SLAVE_ADDR                   0x0057
 #define APP_EEPROM_LOG_MEMORY_ADDR                  0x00
 #define APP_EEPROM_MAX_LOG_VALUES                   5
 #define SYS_TIME_HANDLE_INVALID   ((SYS_TIME_HANDLE) (-1))
