@@ -15,7 +15,7 @@ package:
       version: "v3.14.1"
     - name: "FreeRTOS-Kernel"
       type: "package"
-      version: "v11.1.0"
+      version: "V11.1.0"
     - name: "cryptoauthlib"
       type: "package"
       version: "v3.7.6"
