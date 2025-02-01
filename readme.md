@@ -27,23 +27,11 @@ Following are the typical application types in this repository
 - Applications demonstrating capabilities of Microchip PIC32CZ MCU development boards/kits (Curiosity, Nano, etc.) which allows extending hardware capability through mikroBUS Click or Xplained Pro extensions.
 - Getting started applications pertaining to the PIC32CZ MCU products. These getting started applications demonstrates usage of MPLAB Harmony 3 framework with MCC UI by exercising commonly used peripheral features.
 
-The above application types serve as a reference source to evaluate solutions for PIC32CZ MCUs by developing applications using MPLAB Harmony 3 software framework.  
-
-<span style="color:blue"> Note: The application examples in this repository are an alternative source of reference covering the above types. MPLAB Harmony 3 provides more product-specific examples on peripherals, drivers and middleware technologies. More such examples are available in the product/technology-specific repositories. </span>  
-
-**Repository and demo application support:**
-- The following table lists the fundamental and few technology specific repositories in MPLAB Harmony 3 Software Framework
-
-| Repository	| # Demo Application |
-| ---                                                                               | ---|            
-| [csp](https://github.com/Microchip-MPLAB-Harmony/csp/tree/master/apps)			| Simple applications that directly control peripherals |
-| [core](https://github.com/Microchip-MPLAB-Harmony/core/tree/master/apps)          | Applications that use the drivers and system services that have advanced capabilities and a higher level of abstraction that gives better hardware independence |
-| [usb](https://github.com/Microchip-MPLAB-Harmony/usb/tree/master/apps)            | Applications that demonstrate the capabilities of the MPLAB Harmony USB stack |
-| [net](https://github.com/Microchip-MPLAB-Harmony/net/tree/master/apps)            | Applications that demonstrate the capabilities of the MPLAB Harmony TCP/IP stack. These applications use well-known protocols like TCP, UDP, HTTP, SMTP, etc. |
-| [gfx](https://github.com/Microchip-MPLAB-Harmony/gfx/tree/master/apps)			| Quick start applications that demonstrates MPLAB Harmony Legato Graphics Libraries |
+The above application types serve as a reference source to evaluate solutions for PIC32CM MCUs by developing applications using MPLAB Harmony 3 software framework.  
 
 ### Note:
-The above is not an exhaustive list of all MPLAB Harmony 3 packages and corresponding application offerings. Refer the MPLAB Harmony 3 GitHub [Launch page](https://github.com/Microchip-MPLAB-Harmony) to view the complete list of MPLAB Harmony 3 packages. In each of these packages refer the underlying “apps” folder for the applications offering.
+- The application examples in this repository are an alternative source of reference covering the above types. MPLAB Harmony 3 provides more product-specific examples on peripherals, drivers and middleware technologies. More such examples are available in the product/technology-specific repositories.
+- Refer the MPLAB Harmony 3 GitHub [Launch page](https://github.com/Microchip-MPLAB-Harmony) to view the complete list of MPLAB Harmony 3 packages. In each of these packages refer the underlying “apps” folder for the applications offering.
 
 **To know more about 32-bit Microcontroller Applications, Reference Designs and Solutions, [Click Here](https://www.microchip.com/en-us/tools-resources/reference-designs)**
 
@@ -54,11 +42,19 @@ The above is not an exhaustive list of all MPLAB Harmony 3 packages and correspo
 
 # Contents Summary
 
-| Folder     | Description                                               |
-| ---        | ---                                                       |
-| apps       | 32-bit MCU Example reference applications for PIC32CZ MCUs |
-| docs       | Reference applications help documentation                 |
+| Folder | Description |
+| --- | --- |
+| apps | 32-bit MCU Example reference applications for PIC32CZ MCUs |
 
+## Documentation
+
+Click [here](https://onlinedocs.microchip.com/v2/keyword-lookup?keyword=REFERENCE_APPLICATIONS_FOR_PIC32CZ_MCUS_OVERVIEW&redirect=true) to view the online documentation of this repository.
+
+To view the documentation offline, follow these steps:  
+
+ - Download the publication as a zip file from [here](https://onlinedocs.microchip.com/download/GUID-370F882E-0FF7-40A0-92E4-07483A0ABC80?type=webhelp).
+ - Extract the zip file into a folder.
+ - Navigate to the folder and open **index.html** in a web browser of your choice. 
 
 ____
 
