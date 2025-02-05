@@ -55,7 +55,7 @@
       </entry>
    </usedClasses>
    <usedLibraries class="java.util.ArrayList">
-      <ILibraryFile class="com.microchip.mcc.core.library.BaseLibraryFile" libraryClass="com.microchip.mcc.harmony.Harmony3Library" version="1.5.3"/>
+      <ILibraryFile class="com.microchip.mcc.core.library.BaseLibraryFile" libraryClass="com.microchip.mcc.harmony.Harmony3Library" version="1.5.4"/>
    </usedLibraries>
    <tokenMap class="java.util.TreeMap">
       <entry>
@@ -14361,7 +14361,7 @@
       </entry>
       <entry>
          <file>..\src\config\pic32cz_ca90_cult\definitions.h</file>
-         <hash>d54db9ec7e7db03310c3689e2ef5f4acc16f1fc4b1840cd792edb2cb0b8e7f63</hash>
+         <hash>72ab3cdc406ba316db527c12fdbf9dc75a90a717977a9d328c7dac6ab1e3ea76</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32cz_ca90_cult\device.h</file>
@@ -14421,7 +14421,7 @@
       </entry>
       <entry>
          <file>..\src\config\pic32cz_ca90_cult\initialization.c</file>
-         <hash>fe7fc6b73a9c139c09db7e92cf76b8d556a6cafb00cca498cf6a61df1f6c7a0c</hash>
+         <hash>9ad3b7c2d98c68b55a7b4da50295cbfe4592aefddac50513754469b1dcdf7765</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32cz_ca90_cult\interrupts.c</file>
