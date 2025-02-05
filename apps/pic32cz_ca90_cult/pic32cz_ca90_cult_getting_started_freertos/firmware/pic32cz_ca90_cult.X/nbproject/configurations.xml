@@ -399,7 +399,7 @@
       </toolsSet>
       <packs>
         <pack name="CMSIS" vendor="ARM" version="5.8.0"/>
-        <pack name="PIC32CZ-CA90_DFP" vendor="Microchip" version="1.5.162"/>
+        <pack name="PIC32CZ-CA90_DFP" vendor="Microchip" version="1.6.166"/>
       </packs>
       <ScriptingSettings>
       </ScriptingSettings>

@@ -3,7 +3,7 @@
     <type>com.microchip.mplab.nbide.embedded.makeproject</type>
     <configuration>
         <data xmlns="http://www.netbeans.org/ns/make-project/1">
-            <name>getting_started_freertos_pic32cz_ca90_cult</name>
+            <name>drivers_freertos_pic32cz_ca90_cult</name>
             <creation-uuid>9184aa77-f977-4b4d-8950-d8a69185cdeb</creation-uuid>
             <make-project-type>0</make-project-type>
             <sourceEncoding>ISO-8859-1</sourceEncoding>

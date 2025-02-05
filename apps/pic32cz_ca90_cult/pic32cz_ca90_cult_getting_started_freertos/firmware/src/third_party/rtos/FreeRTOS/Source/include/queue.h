@@ -1,5 +1,5 @@
 /*
- * FreeRTOS Kernel <DEVELOPMENT BRANCH>
+ * FreeRTOS Kernel V11.1.0
  * Copyright (C) 2021 Amazon.com, Inc. or its affiliates. All Rights Reserved.
  *
  * SPDX-License-Identifier: MIT
@@ -34,13 +34,13 @@
     #error "include FreeRTOS.h" must appear in source files before "include queue.h"
 #endif
 
-#include "task.h"
-
 /* *INDENT-OFF* */
 #ifdef __cplusplus
     extern "C" {
 #endif
 /* *INDENT-ON* */
+
+#include "task.h"
 
 /**
  * Type by which queues are referenced.  For example, a call to xQueueCreate()
@@ -71,11 +71,11 @@ typedef struct QueueDefinition   * QueueSetMemberHandle_t;
 
 /* For internal use only.  These definitions *must* match those in queue.c. */
 #define queueQUEUE_TYPE_BASE                  ( ( uint8_t ) 0U )
+#define queueQUEUE_TYPE_SET                   ( ( uint8_t ) 0U )
 #define queueQUEUE_TYPE_MUTEX                 ( ( uint8_t ) 1U )
 #define queueQUEUE_TYPE_COUNTING_SEMAPHORE    ( ( uint8_t ) 2U )
 #define queueQUEUE_TYPE_BINARY_SEMAPHORE      ( ( uint8_t ) 3U )
 #define queueQUEUE_TYPE_RECURSIVE_MUTEX       ( ( uint8_t ) 4U )
-#define queueQUEUE_TYPE_SET                   ( ( uint8_t ) 5U )
 
 /**
  * queue. h
@@ -109,7 +109,7 @@ typedef struct QueueDefinition   * QueueSetMemberHandle_t;
  * the same size.
  *
  * @return If the queue is successfully create then a handle to the newly
- * created queue is returned.  If the queue cannot be created then NULL is
+ * created queue is returned.  If the queue cannot be created then 0 is
  * returned.
  *
  * Example usage:
@@ -126,7 +126,7 @@ typedef struct QueueDefinition   * QueueSetMemberHandle_t;
  *
  *  // Create a queue capable of containing 10 uint32_t values.
  *  xQueue1 = xQueueCreate( 10, sizeof( uint32_t ) );
- *  if( xQueue1 == NULL )
+ *  if( xQueue1 == 0 )
  *  {
  *      // Queue was not created and must not be used.
  *  }
@@ -134,7 +134,7 @@ typedef struct QueueDefinition   * QueueSetMemberHandle_t;
  *  // Create a queue capable of containing 10 pointers to AMessage structures.
  *  // These should be passed by pointer as they contain a lot of data.
  *  xQueue2 = xQueueCreate( 10, sizeof( struct AMessage * ) );
- *  if( xQueue2 == NULL )
+ *  if( xQueue2 == 0 )
  *  {
  *      // Queue was not created and must not be used.
  *  }
@@ -292,7 +292,7 @@ typedef struct QueueDefinition   * QueueSetMemberHandle_t;
  * queue is full.  The time is defined in tick periods so the constant
  * portTICK_PERIOD_MS should be used to convert to real time if this is required.
  *
- * @return pdPASS if the item was successfully posted, otherwise errQUEUE_FULL.
+ * @return pdTRUE if the item was successfully posted, otherwise errQUEUE_FULL.
  *
  * Example usage:
  * @code{c}
@@ -375,7 +375,7 @@ typedef struct QueueDefinition   * QueueSetMemberHandle_t;
  * is full.  The  time is defined in tick periods so the constant
  * portTICK_PERIOD_MS should be used to convert to real time if this is required.
  *
- * @return pdPASS if the item was successfully posted, otherwise errQUEUE_FULL.
+ * @return pdTRUE if the item was successfully posted, otherwise errQUEUE_FULL.
  *
  * Example usage:
  * @code{c}
@@ -460,7 +460,7 @@ typedef struct QueueDefinition   * QueueSetMemberHandle_t;
  * queue is full.  The time is defined in tick periods so the constant
  * portTICK_PERIOD_MS should be used to convert to real time if this is required.
  *
- * @return pdPASS if the item was successfully posted, otherwise errQUEUE_FULL.
+ * @return pdTRUE if the item was successfully posted, otherwise errQUEUE_FULL.
  *
  * Example usage:
  * @code{c}
@@ -633,7 +633,7 @@ typedef struct QueueDefinition   * QueueSetMemberHandle_t;
  * item at the back of the queue, or queueSEND_TO_FRONT to place the item
  * at the front of the queue (for high priority messages).
  *
- * @return pdPASS if the item was successfully posted, otherwise errQUEUE_FULL.
+ * @return pdTRUE if the item was successfully posted, otherwise errQUEUE_FULL.
  *
  * Example usage:
  * @code{c}
@@ -723,8 +723,8 @@ BaseType_t xQueueGenericSend( QueueHandle_t xQueue,
  * xQueuePeek() will return immediately if xTicksToWait is 0 and the queue
  * is empty.
  *
- * @return pdPASS if an item was successfully received from the queue,
- * otherwise errQUEUE_EMPTY.
+ * @return pdTRUE if an item was successfully received from the queue,
+ * otherwise pdFALSE.
  *
  * Example usage:
  * @code{c}
@@ -811,8 +811,8 @@ BaseType_t xQueuePeek( QueueHandle_t xQueue,
  * @param pvBuffer Pointer to the buffer into which the received item will
  * be copied.
  *
- * @return pdPASS if an item was successfully received from the queue,
- * otherwise pdFAIL.
+ * @return pdTRUE if an item was successfully received from the queue,
+ * otherwise pdFALSE.
  *
  * \defgroup xQueuePeekFromISR xQueuePeekFromISR
  * \ingroup QueueManagement
@@ -852,8 +852,8 @@ BaseType_t xQueuePeekFromISR( QueueHandle_t xQueue,
  * constant portTICK_PERIOD_MS should be used to convert to real time if this is
  * required.
  *
- * @return pdPASS if an item was successfully received from the queue,
- * otherwise errQUEUE_EMPTY.
+ * @return pdTRUE if an item was successfully received from the queue,
+ * otherwise pdFALSE.
  *
  * Example usage:
  * @code{c}
@@ -998,7 +998,7 @@ void vQueueDelete( QueueHandle_t xQueue ) PRIVILEGED_FUNCTION;
  * running task.  If xQueueSendToFrontFromISR() sets this value to pdTRUE then
  * a context switch should be requested before the interrupt is exited.
  *
- * @return pdPASS if the data was successfully sent to the queue, otherwise
+ * @return pdTRUE if the data was successfully sent to the queue, otherwise
  * errQUEUE_FULL.
  *
  * Example usage for buffered IO (where the ISR can obtain more than one value
@@ -1070,7 +1070,7 @@ void vQueueDelete( QueueHandle_t xQueue ) PRIVILEGED_FUNCTION;
  * running task.  If xQueueSendToBackFromISR() sets this value to pdTRUE then
  * a context switch should be requested before the interrupt is exited.
  *
- * @return pdPASS if the data was successfully sent to the queue, otherwise
+ * @return pdTRUE if the data was successfully sent to the queue, otherwise
  * errQUEUE_FULL.
  *
  * Example usage for buffered IO (where the ISR can obtain more than one value
@@ -1235,7 +1235,7 @@ void vQueueDelete( QueueHandle_t xQueue ) PRIVILEGED_FUNCTION;
  * running task.  If xQueueSendFromISR() sets this value to pdTRUE then
  * a context switch should be requested before the interrupt is exited.
  *
- * @return pdPASS if the data was successfully sent to the queue, otherwise
+ * @return pdTRUE if the data was successfully sent to the queue, otherwise
  * errQUEUE_FULL.
  *
  * Example usage for buffered IO (where the ISR can obtain more than one value
@@ -1318,7 +1318,7 @@ void vQueueDelete( QueueHandle_t xQueue ) PRIVILEGED_FUNCTION;
  * item at the back of the queue, or queueSEND_TO_FRONT to place the item
  * at the front of the queue (for high priority messages).
  *
- * @return pdPASS if the data was successfully sent to the queue, otherwise
+ * @return pdTRUE if the data was successfully sent to the queue, otherwise
  * errQUEUE_FULL.
  *
  * Example usage for buffered IO (where the ISR can obtain more than one value
@@ -1389,8 +1389,8 @@ BaseType_t xQueueGiveFromISR( QueueHandle_t xQueue,
  * to unblock *pxTaskWoken will get set to pdTRUE, otherwise *pxTaskWoken will
  * remain unchanged.
  *
- * @return pdPASS if an item was successfully received from the queue,
- * otherwise pdFAIL.
+ * @return pdTRUE if an item was successfully received from the queue,
+ * otherwise pdFALSE.
  *
  * Example usage:
  * @code{c}
@@ -1645,7 +1645,7 @@ BaseType_t xQueueGiveMutexRecursive( QueueHandle_t xMutex ) PRIVILEGED_FUNCTION;
  * or semaphores contained in the set is in a state where a queue read or
  * semaphore take operation would be successful.
  *
- * Note 1:  See the documentation on https://www.freertos.org/Documentation/02-Kernel/04-API-references/07-Queue-sets/00-RTOS-queue-sets
+ * Note 1:  See the documentation on https://www.FreeRTOS.org/RTOS-queue-sets.html
  * for reasons why queue sets are very rarely needed in practice as there are
  * simpler methods of blocking on multiple objects.
  *
@@ -1742,7 +1742,7 @@ BaseType_t xQueueGiveMutexRecursive( QueueHandle_t xMutex ) PRIVILEGED_FUNCTION;
  * See FreeRTOS/Source/Demo/Common/Minimal/QueueSet.c for an example using this
  * function.
  *
- * Note 1:  See the documentation on https://www.freertos.org/Documentation/02-Kernel/04-API-references/07-Queue-sets/00-RTOS-queue-sets
+ * Note 1:  See the documentation on https://www.FreeRTOS.org/RTOS-queue-sets.html
  * for reasons why queue sets are very rarely needed in practice as there are
  * simpler methods of blocking on multiple objects.
  *
