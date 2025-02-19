@@ -74,14 +74,6 @@
 #define LED0_Get()               (((PORT_REGS->GROUP[1].PORT_IN >> 21U)) & 0x01U)
 #define LED0_PIN                  PORT_PIN_PB21
 
-/*** Macros for SW0 pin ***/
-#define SW0_Get()               (((PORT_REGS->GROUP[1].PORT_IN >> 24U)) & 0x01U)
-#define SW0_PIN                  PORT_PIN_PB24
-
-/*** Macros for SW1 pin ***/
-#define SW1_Get()               (((PORT_REGS->GROUP[2].PORT_IN >> 23U)) & 0x01U)
-#define SW1_PIN                  PORT_PIN_PC23
-
 // *****************************************************************************
 /* PORT Group
 
