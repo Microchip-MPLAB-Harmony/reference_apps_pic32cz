@@ -66,21 +66,21 @@
 // *****************************************************************************
 
 /*** Macros for LED0 pin ***/
-#define LED0_Set()               (PORT_REGS->GROUP[1].PORT_OUTSET = ((uint32_t)1U << 21U))
-#define LED0_Clear()             (PORT_REGS->GROUP[1].PORT_OUTCLR = ((uint32_t)1U << 21U))
-#define LED0_Toggle()            (PORT_REGS->GROUP[1].PORT_OUTTGL = ((uint32_t)1U << 21U))
-#define LED0_OutputEnable()      (PORT_REGS->GROUP[1].PORT_DIRSET = ((uint32_t)1U << 21U))
-#define LED0_InputEnable()       (PORT_REGS->GROUP[1].PORT_DIRCLR = ((uint32_t)1U << 21U))
-#define LED0_Get()               (((PORT_REGS->GROUP[1].PORT_IN >> 21U)) & 0x01U)
-#define LED0_PIN                  PORT_PIN_PB21
+#define LED0_Set()               (PORT_REGS->GROUP[2].PORT_OUTSET = ((uint32_t)1U << 12U))
+#define LED0_Clear()             (PORT_REGS->GROUP[2].PORT_OUTCLR = ((uint32_t)1U << 12U))
+#define LED0_Toggle()            (PORT_REGS->GROUP[2].PORT_OUTTGL = ((uint32_t)1U << 12U))
+#define LED0_OutputEnable()      (PORT_REGS->GROUP[2].PORT_DIRSET = ((uint32_t)1U << 12U))
+#define LED0_InputEnable()       (PORT_REGS->GROUP[2].PORT_DIRCLR = ((uint32_t)1U << 12U))
+#define LED0_Get()               (((PORT_REGS->GROUP[2].PORT_IN >> 12U)) & 0x01U)
+#define LED0_PIN                  PORT_PIN_PC12
 
 /*** Macros for SW0 pin ***/
-#define SW0_Get()               (((PORT_REGS->GROUP[1].PORT_IN >> 24U)) & 0x01U)
-#define SW0_PIN                  PORT_PIN_PB24
+#define SW0_Get()               (((PORT_REGS->GROUP[4].PORT_IN >> 2U)) & 0x01U)
+#define SW0_PIN                  PORT_PIN_PE02
 
 /*** Macros for SW1 pin ***/
-#define SW1_Get()               (((PORT_REGS->GROUP[2].PORT_IN >> 23U)) & 0x01U)
-#define SW1_PIN                  PORT_PIN_PC23
+#define SW1_Get()               (((PORT_REGS->GROUP[4].PORT_IN >> 10U)) & 0x01U)
+#define SW1_PIN                  PORT_PIN_PE10
 
 // *****************************************************************************
 /* PORT Group

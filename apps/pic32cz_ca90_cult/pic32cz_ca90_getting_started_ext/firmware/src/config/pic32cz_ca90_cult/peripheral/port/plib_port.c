@@ -71,7 +71,10 @@
 void PORT_Initialize(void)
 {
    /************************** GROUP 0 Initialization *************************/
+   PORT_REGS->GROUP[0].PORT_PINCFG[8] = 0x1U;
+   PORT_REGS->GROUP[0].PORT_PINCFG[9] = 0x1U;
 
+   PORT_REGS->GROUP[0].PORT_PMUX[4] = 0x33U;
 
    /************************** GROUP 1 Initialization *************************/
    PORT_REGS->GROUP[1].PORT_DIR = 0x200000U;
@@ -82,22 +85,31 @@ void PORT_Initialize(void)
    PORT_REGS->GROUP[1].PORT_PMUX[12] = 0x0U;
 
    /************************** GROUP 2 Initialization *************************/
+   PORT_REGS->GROUP[2].PORT_DIR = 0x1000U;
    PORT_REGS->GROUP[2].PORT_PINCFG[0] = 0x1U;
    PORT_REGS->GROUP[2].PORT_PINCFG[1] = 0x1U;
    PORT_REGS->GROUP[2].PORT_PINCFG[4] = 0x1U;
    PORT_REGS->GROUP[2].PORT_PINCFG[7] = 0x1U;
+   PORT_REGS->GROUP[2].PORT_PINCFG[12] = 0x0U;
    PORT_REGS->GROUP[2].PORT_PINCFG[23] = 0x1U;
 
    PORT_REGS->GROUP[2].PORT_PMUX[0] = 0x33U;
    PORT_REGS->GROUP[2].PORT_PMUX[2] = 0x3U;
    PORT_REGS->GROUP[2].PORT_PMUX[3] = 0x30U;
+   PORT_REGS->GROUP[2].PORT_PMUX[6] = 0x0U;
    PORT_REGS->GROUP[2].PORT_PMUX[11] = 0x0U;
 
    /************************** GROUP 3 Initialization *************************/
 
 
    /************************** GROUP 4 Initialization *************************/
+   PORT_REGS->GROUP[4].PORT_PINCFG[2] = 0x1U;
+   PORT_REGS->GROUP[4].PORT_PINCFG[9] = 0x1U;
+   PORT_REGS->GROUP[4].PORT_PINCFG[10] = 0x1U;
 
+   PORT_REGS->GROUP[4].PORT_PMUX[1] = 0x0U;
+   PORT_REGS->GROUP[4].PORT_PMUX[4] = 0x30U;
+   PORT_REGS->GROUP[4].PORT_PMUX[5] = 0x0U;
 
    /************************** GROUP 5 Initialization *************************/
 
@@ -274,6 +286,14 @@ void PORT_GroupToggle(PORT_GROUP group, uint32_t mask)
 void PORT_GroupInputEnable(PORT_GROUP group, uint32_t mask)
 {
     ((port_group_registers_t*)group)->PORT_DIRCLR = mask;
+    
+    for(uint32_t i = 0U; i < 32U; i++)
+    {
+        if((mask & ((uint32_t)1U << i)) != 0U)
+        {
+            ((port_group_registers_t*)group)->PORT_PINCFG[i] |= PORT_PINCFG_INEN_Msk;
+        }
+    }
 }
 
 // *****************************************************************************
