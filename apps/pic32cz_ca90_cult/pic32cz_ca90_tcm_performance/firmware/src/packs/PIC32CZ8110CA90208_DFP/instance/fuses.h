@@ -17,7 +17,7 @@
  *
  */
 
-/* file generated from device description file (ATDF) version 2024-06-28T20:38:26Z */
+/* file generated from device description file (ATDF) version 2024-07-31T17:51:00Z */
 #ifndef _PIC32CZCA90_FUSES_INSTANCE_
 #define _PIC32CZCA90_FUSES_INSTANCE_
 
