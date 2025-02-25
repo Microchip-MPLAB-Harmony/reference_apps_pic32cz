@@ -227,7 +227,7 @@
       </entry>
    </usedClasses>
    <usedLibraries class="java.util.ArrayList">
-      <ILibraryFile class="com.microchip.mcc.core.library.BaseLibraryFile" libraryClass="com.microchip.mcc.harmony.Harmony3Library" version="1.5.2"/>
+      <ILibraryFile class="com.microchip.mcc.core.library.BaseLibraryFile" libraryClass="com.microchip.mcc.harmony.Harmony3Library" version="1.5.4"/>
    </usedLibraries>
    <tokenMap class="java.util.TreeMap">
       <entry>
@@ -4017,37 +4017,37 @@
       &lt;ElementPositions dnOrder=&quot;0&quot;&gt;
         &lt;ElementPosition dnOrder=&quot;0&quot; id=&quot;FreeRTOS&quot; x=&quot;538&quot; y=&quot;485&quot;/&gt;
         &lt;ElementPosition dnOrder=&quot;1&quot; id=&quot;HarmonyCore&quot; x=&quot;722&quot; y=&quot;409&quot;/&gt;
-        &lt;ElementPosition dnOrder=&quot;2&quot; id=&quot;TCP/IP STACK&quot; x=&quot;20&quot; y=&quot;20&quot;/&gt;
-        &lt;ElementPosition dnOrder=&quot;3&quot; id=&quot;atecc608&quot; x=&quot;153&quot; y=&quot;128&quot;/&gt;
-        &lt;ElementPosition dnOrder=&quot;4&quot; id=&quot;core&quot; x=&quot;30&quot; y=&quot;100&quot;/&gt;
-        &lt;ElementPosition dnOrder=&quot;5&quot; id=&quot;core_timer&quot; x=&quot;180&quot; y=&quot;20&quot;/&gt;
-        &lt;ElementPosition dnOrder=&quot;6&quot; id=&quot;cryptoauthlib&quot; x=&quot;526&quot; y=&quot;373&quot;/&gt;
-        &lt;ElementPosition dnOrder=&quot;7&quot; id=&quot;cryptoauthlib_tng&quot; x=&quot;379&quot; y=&quot;251&quot;/&gt;
-        &lt;ElementPosition dnOrder=&quot;8&quot; id=&quot;dfp&quot; x=&quot;130&quot; y=&quot;100&quot;/&gt;
-        &lt;ElementPosition dnOrder=&quot;9&quot; id=&quot;drvWifiPic32mzw1&quot; x=&quot;176&quot; y=&quot;276&quot;/&gt;
-        &lt;ElementPosition dnOrder=&quot;10&quot; id=&quot;drv_ba414e&quot; x=&quot;1&quot; y=&quot;484&quot;/&gt;
-        &lt;ElementPosition dnOrder=&quot;11&quot; id=&quot;i2c2&quot; x=&quot;0&quot; y=&quot;160&quot;/&gt;
-        &lt;ElementPosition dnOrder=&quot;12&quot; id=&quot;lib_crypto&quot; x=&quot;153&quot; y=&quot;456&quot;/&gt;
-        &lt;ElementPosition dnOrder=&quot;13&quot; id=&quot;lib_pahomqtt&quot; x=&quot;292&quot; y=&quot;229&quot;/&gt;
-        &lt;ElementPosition dnOrder=&quot;14&quot; id=&quot;lib_wolfcrypt&quot; x=&quot;0&quot; y=&quot;338&quot;/&gt;
-        &lt;ElementPosition dnOrder=&quot;15&quot; id=&quot;lib_wolfssl&quot; x=&quot;0&quot; y=&quot;244&quot;/&gt;
-        &lt;ElementPosition dnOrder=&quot;16&quot; id=&quot;nvm&quot; x=&quot;20&quot; y=&quot;20&quot;/&gt;
-        &lt;ElementPosition dnOrder=&quot;17&quot; id=&quot;sys_command&quot; x=&quot;689&quot; y=&quot;146&quot;/&gt;
-        &lt;ElementPosition dnOrder=&quot;18&quot; id=&quot;sys_console&quot; x=&quot;461&quot; y=&quot;58&quot;/&gt;
-        &lt;ElementPosition dnOrder=&quot;19&quot; id=&quot;sys_debug&quot; x=&quot;674&quot; y=&quot;20&quot;/&gt;
-        &lt;ElementPosition dnOrder=&quot;20&quot; id=&quot;sys_time&quot; x=&quot;314&quot; y=&quot;15&quot;/&gt;
-        &lt;ElementPosition dnOrder=&quot;21&quot; id=&quot;tcpipNetConfig&quot; x=&quot;393&quot; y=&quot;352&quot;/&gt;
-        &lt;ElementPosition dnOrder=&quot;22&quot; id=&quot;tcpipStack&quot; x=&quot;717&quot; y=&quot;270&quot;/&gt;
-        &lt;ElementPosition dnOrder=&quot;23&quot; id=&quot;uart1&quot; x=&quot;291&quot; y=&quot;141&quot;/&gt;
+        &lt;ElementPosition dnOrder=&quot;2&quot; id=&quot;atecc608&quot; x=&quot;153&quot; y=&quot;128&quot;/&gt;
+        &lt;ElementPosition dnOrder=&quot;3&quot; id=&quot;core&quot; x=&quot;30&quot; y=&quot;100&quot;/&gt;
+        &lt;ElementPosition dnOrder=&quot;4&quot; id=&quot;core_timer&quot; x=&quot;180&quot; y=&quot;20&quot;/&gt;
+        &lt;ElementPosition dnOrder=&quot;5&quot; id=&quot;cryptoauthlib&quot; x=&quot;526&quot; y=&quot;373&quot;/&gt;
+        &lt;ElementPosition dnOrder=&quot;6&quot; id=&quot;cryptoauthlib_tng&quot; x=&quot;379&quot; y=&quot;251&quot;/&gt;
+        &lt;ElementPosition dnOrder=&quot;7&quot; id=&quot;dfp&quot; x=&quot;130&quot; y=&quot;100&quot;/&gt;
+        &lt;ElementPosition dnOrder=&quot;8&quot; id=&quot;drvWifiPic32mzw1&quot; x=&quot;176&quot; y=&quot;276&quot;/&gt;
+        &lt;ElementPosition dnOrder=&quot;9&quot; id=&quot;drv_ba414e&quot; x=&quot;1&quot; y=&quot;484&quot;/&gt;
+        &lt;ElementPosition dnOrder=&quot;10&quot; id=&quot;i2c2&quot; x=&quot;0&quot; y=&quot;160&quot;/&gt;
+        &lt;ElementPosition dnOrder=&quot;11&quot; id=&quot;lib_crypto&quot; x=&quot;153&quot; y=&quot;456&quot;/&gt;
+        &lt;ElementPosition dnOrder=&quot;12&quot; id=&quot;lib_pahomqtt&quot; x=&quot;292&quot; y=&quot;229&quot;/&gt;
+        &lt;ElementPosition dnOrder=&quot;13&quot; id=&quot;lib_wolfcrypt&quot; x=&quot;0&quot; y=&quot;338&quot;/&gt;
+        &lt;ElementPosition dnOrder=&quot;14&quot; id=&quot;lib_wolfssl&quot; x=&quot;0&quot; y=&quot;244&quot;/&gt;
+        &lt;ElementPosition dnOrder=&quot;15&quot; id=&quot;nvm&quot; x=&quot;20&quot; y=&quot;20&quot;/&gt;
+        &lt;ElementPosition dnOrder=&quot;16&quot; id=&quot;sys_command&quot; x=&quot;689&quot; y=&quot;146&quot;/&gt;
+        &lt;ElementPosition dnOrder=&quot;17&quot; id=&quot;sys_console&quot; x=&quot;461&quot; y=&quot;58&quot;/&gt;
+        &lt;ElementPosition dnOrder=&quot;18&quot; id=&quot;sys_debug&quot; x=&quot;674&quot; y=&quot;20&quot;/&gt;
+        &lt;ElementPosition dnOrder=&quot;19&quot; id=&quot;sys_time&quot; x=&quot;314&quot; y=&quot;15&quot;/&gt;
+        &lt;ElementPosition dnOrder=&quot;20&quot; id=&quot;tcpipNetConfig&quot; x=&quot;393&quot; y=&quot;352&quot;/&gt;
+        &lt;ElementPosition dnOrder=&quot;21&quot; id=&quot;tcpipStack&quot; x=&quot;717&quot; y=&quot;270&quot;/&gt;
+        &lt;ElementPosition dnOrder=&quot;22&quot; id=&quot;uart1&quot; x=&quot;291&quot; y=&quot;141&quot;/&gt;
       &lt;/ElementPositions&gt;
     &lt;/ComponentGraph&gt;
     &lt;ComponentGraph dnOrder=&quot;8&quot; id=&quot;TCP/IP STACK&quot;&gt;
       &lt;ElementPositions dnOrder=&quot;0&quot;&gt;
-        &lt;ElementPosition dnOrder=&quot;0&quot; id=&quot;BASIC CONFIGURATION&quot; x=&quot;680&quot; y=&quot;20&quot;/&gt;
-        &lt;ElementPosition dnOrder=&quot;1&quot; id=&quot;DRIVER LAYER&quot; x=&quot;540&quot; y=&quot;20&quot;/&gt;
-        &lt;ElementPosition dnOrder=&quot;2&quot; id=&quot;NETWORK LAYER&quot; x=&quot;317&quot; y=&quot;88&quot;/&gt;
-        &lt;ElementPosition dnOrder=&quot;3&quot; id=&quot;PRESENTATION LAYER&quot; x=&quot;30&quot; y=&quot;80&quot;/&gt;
-        &lt;ElementPosition dnOrder=&quot;4&quot; id=&quot;TRANSPORT LAYER&quot; x=&quot;380&quot; y=&quot;20&quot;/&gt;
+        &lt;ElementPosition dnOrder=&quot;0&quot; id=&quot;APPLICATION LAYER&quot; x=&quot;390&quot; y=&quot;80&quot;/&gt;
+        &lt;ElementPosition dnOrder=&quot;1&quot; id=&quot;BASIC CONFIGURATION&quot; x=&quot;680&quot; y=&quot;20&quot;/&gt;
+        &lt;ElementPosition dnOrder=&quot;2&quot; id=&quot;DRIVER LAYER&quot; x=&quot;540&quot; y=&quot;20&quot;/&gt;
+        &lt;ElementPosition dnOrder=&quot;3&quot; id=&quot;NETWORK LAYER&quot; x=&quot;317&quot; y=&quot;88&quot;/&gt;
+        &lt;ElementPosition dnOrder=&quot;4&quot; id=&quot;PRESENTATION LAYER&quot; x=&quot;30&quot; y=&quot;80&quot;/&gt;
+        &lt;ElementPosition dnOrder=&quot;5&quot; id=&quot;TRANSPORT LAYER&quot; x=&quot;380&quot; y=&quot;20&quot;/&gt;
       &lt;/ElementPositions&gt;
     &lt;/ComponentGraph&gt;
     &lt;ComponentGraph dnOrder=&quot;9&quot; id=&quot;TRANSPORT LAYER&quot;&gt;
@@ -4059,11 +4059,11 @@
     &lt;/ComponentGraph&gt;
     &lt;ComponentGraph dnOrder=&quot;10&quot; id=&quot;__ROOTVIEW&quot;&gt;
       &lt;ElementPositions dnOrder=&quot;0&quot;&gt;
-        &lt;ElementPosition dnOrder=&quot;0&quot; id=&quot;APPLICATION LAYER&quot; x=&quot;152&quot; y=&quot;175&quot;/&gt;
-        &lt;ElementPosition dnOrder=&quot;1&quot; id=&quot;System Configuration&quot; x=&quot;162&quot; y=&quot;19&quot;/&gt;
+        &lt;ElementPosition dnOrder=&quot;0&quot; id=&quot;System Configuration&quot; x=&quot;12&quot; y=&quot;29&quot;/&gt;
+        &lt;ElementPosition dnOrder=&quot;1&quot; id=&quot;TCP/IP STACK&quot; x=&quot;16&quot; y=&quot;219&quot;/&gt;
         &lt;ElementPosition dnOrder=&quot;2&quot; id=&quot;sysMqttPic32mzw1&quot; x=&quot;248&quot; y=&quot;92&quot;/&gt;
-        &lt;ElementPosition dnOrder=&quot;3&quot; id=&quot;sysNetPic32mzw1&quot; x=&quot;298&quot; y=&quot;135&quot;/&gt;
-        &lt;ElementPosition dnOrder=&quot;4&quot; id=&quot;sysWifiPic32mzw1&quot; x=&quot;4&quot; y=&quot;35&quot;/&gt;
+        &lt;ElementPosition dnOrder=&quot;3&quot; id=&quot;sysNetPic32mzw1&quot; x=&quot;256&quot; y=&quot;131&quot;/&gt;
+        &lt;ElementPosition dnOrder=&quot;4&quot; id=&quot;sysWifiPic32mzw1&quot; x=&quot;245&quot; y=&quot;47&quot;/&gt;
         &lt;ElementPosition dnOrder=&quot;5&quot; id=&quot;sysWifiProvPic32mzw1&quot; x=&quot;0&quot; y=&quot;94&quot;/&gt;
         &lt;ElementPosition dnOrder=&quot;6&quot; id=&quot;uart2&quot; x=&quot;15&quot; y=&quot;137&quot;/&gt;
       &lt;/ElementPositions&gt;
@@ -18940,7 +18940,7 @@
       </entry>
       <entry>
          <file>..\src\config\wfi32_iot\FreeRTOSConfig.h</file>
-         <hash>b4357841653d5d81d946b9458f33a88f5121101fb3934b9da43a8ef30eb25fef</hash>
+         <hash>646eb54a9b0b882c91a052b6e0b118e6cac9603e4fe9ea0ee5761cca9f68314b</hash>
       </entry>
       <entry>
          <file>..\src\config\wfi32_iot\config.h</file>
@@ -18960,7 +18960,7 @@
       </entry>
       <entry>
          <file>..\src\config\wfi32_iot\definitions.h</file>
-         <hash>0e25ff86dcd820399a1df8ae4cf9a0809733a9409f3084020cb1ff00b54a8c4d</hash>
+         <hash>617955b520a511a45b3461aa9abb919e50f087a2f29af12670afdfb7528c50dd</hash>
       </entry>
       <entry>
          <file>..\src\config\wfi32_iot\device.h</file>
@@ -19140,15 +19140,15 @@
       </entry>
       <entry>
          <file>..\src\config\wfi32_iot\freertos_hooks.c</file>
-         <hash>ee4a4dfc44aa3d45b99065a3d972818fcbd019d39450a67f168aa7f047f55149</hash>
+         <hash>c97b8f92ad60ff513a27ac7a27b3c6824b75005eb8f7b85fe5ae18deaf568c4e</hash>
       </entry>
       <entry>
          <file>..\src\config\wfi32_iot\initialization.c</file>
-         <hash>59daa415117e78fd07b3a8b2b790a6252b94b0dcc368217fc5fe1db91f749829</hash>
+         <hash>3095817df523dbaed8808ee1eb1ea69970fe59f1756f91ea2e63a4f780854d27</hash>
       </entry>
       <entry>
          <file>..\src\config\wfi32_iot\interrupts.c</file>
-         <hash>64b32ea026ce17954bcd5e3265c3eb8690f82062d2a0f538b18f8fdc5555e2f4</hash>
+         <hash>0f7d8c811eedaf7f5aa1504e17dd7d34c1215d20f8321b54d6326c49ccb501fe</hash>
       </entry>
       <entry>
          <file>..\src\config\wfi32_iot\interrupts.h</file>
@@ -19708,7 +19708,7 @@
       </entry>
       <entry>
          <file>..\src\config\wfi32_iot\library\tcpip\dns.h</file>
-         <hash>1a1a176f26d2ec79ca6d6de7c55b59e535752dc2ca1b022895850073a47f58c7</hash>
+         <hash>8f012b5a60435f4333dea747d3ff3de3811f8febee22e42f6a0b4186b65dc901</hash>
       </entry>
       <entry>
          <file>..\src\config\wfi32_iot\library\tcpip\dnss.h</file>
@@ -19752,7 +19752,7 @@
       </entry>
       <entry>
          <file>..\src\config\wfi32_iot\library\tcpip\ipv6.h</file>
-         <hash>b675c4df60b778005ba0cde22d44a25d8baf0991f631747d9f377830f0271f1f</hash>
+         <hash>ff15077578923fe5a30b33b7bbe49f71cc338f7bb54daafd859402eaac44aa9f</hash>
       </entry>
       <entry>
          <file>..\src\config\wfi32_iot\library\tcpip\lldp.h</file>
@@ -19856,7 +19856,7 @@
       </entry>
       <entry>
          <file>..\src\config\wfi32_iot\library\tcpip\src\dns.c</file>
-         <hash>d210270bbfe63415ef2138313ac2a0917c60e27552f73336597588b96e3be8d8</hash>
+         <hash>b0a76a7de34d11982332be2cfa5da3afd7e89f833187883f103e583d839f3185</hash>
       </entry>
       <entry>
          <file>..\src\config\wfi32_iot\library\tcpip\src\dns_manager.h</file>
@@ -19864,7 +19864,7 @@
       </entry>
       <entry>
          <file>..\src\config\wfi32_iot\library\tcpip\src\dns_private.h</file>
-         <hash>f9f7f3018ecb8b718f967ab36a6c4d1f2b22180e7f2f43d22ec2a71287489e9d</hash>
+         <hash>5c16def3ab1248a0146661ff3e7641bd39a0d464ec8dea0ab484875df863128a</hash>
       </entry>
       <entry>
          <file>..\src\config\wfi32_iot\library\tcpip\src\dnss.c</file>
@@ -19960,7 +19960,7 @@
       </entry>
       <entry>
          <file>..\src\config\wfi32_iot\library\tcpip\src\ipv6_manager.h</file>
-         <hash>f452c104d1f0c9f2184b05e27daf96b52d2f93732c69b9a2f972ff4d86108c38</hash>
+         <hash>b3e53c05254a285834eb0eb1b630857f184cd786a1dfccd3fc7384e806e9a579</hash>
       </entry>
       <entry>
          <file>..\src\config\wfi32_iot\library\tcpip\src\ipv6_private.h</file>
@@ -19968,7 +19968,7 @@
       </entry>
       <entry>
          <file>..\src\config\wfi32_iot\library\tcpip\src\link_list.h</file>
-         <hash>33d4d925cf813f96addd2909c3b6b4b05498d87261285879f02ff15f094579e9</hash>
+         <hash>258f4b8b84d295a9ae012fb6049995b4074dbca9230e7ce184224e9cfa0320cd</hash>
       </entry>
       <entry>
          <file>..\src\config\wfi32_iot\library\tcpip\src\lldp_manager.h</file>
@@ -19992,7 +19992,7 @@
       </entry>
       <entry>
          <file>..\src\config\wfi32_iot\library\tcpip\src\ndp_private.h</file>
-         <hash>b329e4d0b584e60c3b8546d3a4d6d98246d8dc08f383a065a829e56d80911b19</hash>
+         <hash>f717e33491ed8feb01389ae7d9dff0f944411cd676cf71eadaf858b3cb67568d</hash>
       </entry>
       <entry>
          <file>..\src\config\wfi32_iot\library\tcpip\src\oahash.c</file>
@@ -20036,7 +20036,7 @@
       </entry>
       <entry>
          <file>..\src\config\wfi32_iot\library\tcpip\src\tcp.c</file>
-         <hash>5da6c25e7d7f3076b82e1082400aa5fa7a5a18650d243cdb39a2b6817c42e5b2</hash>
+         <hash>da4ee2dcf54482bd63626bee827456fe17457eab5f91ed9544a5d7ccbccd03b5</hash>
       </entry>
       <entry>
          <file>..\src\config\wfi32_iot\library\tcpip\src\tcp_manager.h</file>
@@ -20044,7 +20044,7 @@
       </entry>
       <entry>
          <file>..\src\config\wfi32_iot\library\tcpip\src\tcp_private.h</file>
-         <hash>6caadd47adc022fb7ed49c90fa97594397471a5c0fbbd81f8a5a2d85ad481746</hash>
+         <hash>51d518216ec292b19321f7043f1c1f93e577b01fe77db7b4e52573f8d5cb56c2</hash>
       </entry>
       <entry>
          <file>..\src\config\wfi32_iot\library\tcpip\src\tcpip_announce_manager.h</file>
@@ -20052,7 +20052,7 @@
       </entry>
       <entry>
          <file>..\src\config\wfi32_iot\library\tcpip\src\tcpip_commands.c</file>
-         <hash>bd191b1edf0eb4e2b48c781c8563f0036033a7d4a33cc2fc49651b4b3ddfb589</hash>
+         <hash>033f48cc0e61d7bc713da1364aa7326382cccac3ba3b09829c1cacd6a67aec8f</hash>
       </entry>
       <entry>
          <file>..\src\config\wfi32_iot\library\tcpip\src\tcpip_commands_manager.h</file>
@@ -20076,7 +20076,7 @@
       </entry>
       <entry>
          <file>..\src\config\wfi32_iot\library\tcpip\src\tcpip_helpers.c</file>
-         <hash>01c815b30c11e011d30a60761ff0586213695c7405416ab90e2aab3ba4f38154</hash>
+         <hash>941fce11e083b5220bf19144d4e63c90bf83a4e2dd574d7cd4414ac887b64408</hash>
       </entry>
       <entry>
          <file>..\src\config\wfi32_iot\library\tcpip\src\tcpip_helpers_private.h</file>
@@ -20092,11 +20092,11 @@
       </entry>
       <entry>
          <file>..\src\config\wfi32_iot\library\tcpip\src\tcpip_manager.c</file>
-         <hash>e9dec6713d48442e6ef68c99982c6ed4e971dbefc8d5f008c16ee406a77c21fe</hash>
+         <hash>13883bd70b394bbe37e2624a7962ee292b7b3fd52a13034cb028d5ff92734f5e</hash>
       </entry>
       <entry>
          <file>..\src\config\wfi32_iot\library\tcpip\src\tcpip_manager_control.h</file>
-         <hash>f769f891208a7eec11876c1b6d40460623c84d937e8d25be2c41a914505708ea</hash>
+         <hash>f8004bf4c0330cd88c64023a6dea31876ba353b9785fcaa26585884d0136ac06</hash>
       </entry>
       <entry>
          <file>..\src\config\wfi32_iot\library\tcpip\src\tcpip_module_manager.h</file>
@@ -20180,7 +20180,7 @@
       </entry>
       <entry>
          <file>..\src\config\wfi32_iot\library\tcpip\tcpip.h</file>
-         <hash>0efb269bc537501763b0d481ef9b5cf2e42b1dcd5370cb715d9b124f54be4eb9</hash>
+         <hash>e1708dbb81b9c7332a63c4f8c60532b64a77678e491b9ba9ca865a3f50a2b50c</hash>
       </entry>
       <entry>
          <file>..\src\config\wfi32_iot\library\tcpip\tcpip_announce.h</file>
@@ -20204,7 +20204,7 @@
       </entry>
       <entry>
          <file>..\src\config\wfi32_iot\library\tcpip\tcpip_helpers.h</file>
-         <hash>236891098e8a147014fa37589465bfabdbbe93c6abb2fd0cafee4a115270566b</hash>
+         <hash>e68458ba5061938427ec2b29f87cfcdbf5dfe6fd17620e62e03fbf1c823192ee</hash>
       </entry>
       <entry>
          <file>..\src\config\wfi32_iot\library\tcpip\tcpip_mac.h</file>
@@ -20220,7 +20220,7 @@
       </entry>
       <entry>
          <file>..\src\config\wfi32_iot\library\tcpip\tcpip_manager.h</file>
-         <hash>2108c41f646378c23e612b7d52479ffabcb1bb07a999a0293e1c9aba00b8eab1</hash>
+         <hash>7aa08845aecc0dccf2cfb6769b679c35e54af7d9aa901572be09883323719d81</hash>
       </entry>
       <entry>
          <file>..\src\config\wfi32_iot\library\tcpip\tcpip_reboot.h</file>
@@ -20296,7 +20296,7 @@
       </entry>
       <entry>
          <file>..\src\config\wfi32_iot\osal\osal.h</file>
-         <hash>8404fbe44807fa0484ffb38843a72cb9af8e31c9c30bd1b2594e609b8ea317d9</hash>
+         <hash>1cfe3b61d9693b2369922041eef33fe16b3c1ccd9c85d4ded808b805f90a869c</hash>
       </entry>
       <entry>
          <file>..\src\config\wfi32_iot\osal\osal_definitions.h</file>
@@ -20304,15 +20304,15 @@
       </entry>
       <entry>
          <file>..\src\config\wfi32_iot\osal\osal_freertos.c</file>
-         <hash>8092bb557d244984ab601e36d3dc25408c8b57f3c8f090aac491891b4a32cb28</hash>
+         <hash>565c6dc54044f91bfd235f3f240e2ddf0ff49189d692fe5be50862d2b6c296f0</hash>
       </entry>
       <entry>
          <file>..\src\config\wfi32_iot\osal\osal_freertos.h</file>
-         <hash>7ad9faa903d8587bab9490660328f134b8e027f9c24bca47201f3f96f3b99474</hash>
+         <hash>f9d8c97ce37bbb7516242ec37c4b0db387090cfed54580af683bc0ce126094e0</hash>
       </entry>
       <entry>
          <file>..\src\config\wfi32_iot\p32MZ1025W104132.ld</file>
-         <hash>ed773c18bcb76a06cb673da8ddabc215598912f30a7ccc69f9f56643b6766ce0</hash>
+         <hash>35861b67340e3270f2fcd1f7581d11a2a4d11e78db12c06e5551f8cbace1e5a8</hash>
       </entry>
       <entry>
          <file>..\src\config\wfi32_iot\peripheral\clk\plib_clk.c</file>
@@ -20344,19 +20344,27 @@
       </entry>
       <entry>
          <file>..\src\config\wfi32_iot\peripheral\gpio\plib_gpio.h</file>
-         <hash>6790434a0a01d46089c12e39a77722c274135303c73192e0d1961e08f13d4d02</hash>
+         <hash>d948ef00390595e19a1e77ad885d2e6b89fd259ab927e9a33b90b90a7c182462</hash>
       </entry>
       <entry>
          <file>..\src\config\wfi32_iot\peripheral\i2c\master\plib_i2c2_master.c</file>
-         <hash>c12e16fe63b67b4e7a4120ebf06ad52bddcf566022229411f3eb3e19df281ebc</hash>
+         <hash>f741153effd200bedc32e699658a574e8d9302e3928a8f5907ecebf2096c6faa</hash>
       </entry>
       <entry>
          <file>..\src\config\wfi32_iot\peripheral\i2c\master\plib_i2c2_master.h</file>
-         <hash>b64cbd9b5559995f70cfa38282f985b3879ca6d9988bb4dfa6e1efc1a2da81ca</hash>
+         <hash>2f6e8e9380c5ba82f1489f821ebe2928ab762320ebce23aae7e638c2cd7cf9d6</hash>
       </entry>
       <entry>
          <file>..\src\config\wfi32_iot\peripheral\i2c\master\plib_i2c_master_common.h</file>
-         <hash>d575964edd097b1032012b5588ebc83cc5bb8a6cfd2d4a9a6449ba4508252dda</hash>
+         <hash>e8e91fe4308eb9028f18cdb9ac7db5b82b0c3869c0911f884b9359940eedb411</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\wfi32_iot\peripheral\i2c\plib_i2c_smbus_common.c</file>
+         <hash>026121a1d5fae1028604b3031f89253ed36f588d037beb3722351261ce514dd2</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\wfi32_iot\peripheral\i2c\plib_i2c_smbus_common.h</file>
+         <hash>585f8d40c9fcaa072abdf3039cbc4b26ee3fbcb902171dd7e79a682e3973f995</hash>
       </entry>
       <entry>
          <file>..\src\config\wfi32_iot\peripheral\nvm\plib_nvm.c</file>
@@ -20400,7 +20408,7 @@
       </entry>
       <entry>
          <file>..\src\config\wfi32_iot\system\command\src\sys_command.c</file>
-         <hash>84360285206bc304af70cc0b29fea061345ba6e27674613b5bb947da9fda0768</hash>
+         <hash>870e3c97b32eea8d896ea309b892f7300eee83833ae269ac9b5902018bed565a</hash>
       </entry>
       <entry>
          <file>..\src\config\wfi32_iot\system\command\sys_command.h</file>
@@ -20568,7 +20576,7 @@
       </entry>
       <entry>
          <file>..\src\config\wfi32_iot\tasks.c</file>
-         <hash>5862eac543ef95278f656bc662eec1cba079c85c6bb683237549fdc2f8af5911</hash>
+         <hash>6c158f647a5db6e804af8781dd6b9d7ef46f58ad270ff613857560451232edd1</hash>
       </entry>
       <entry>
          <file>..\src\config\wfi32_iot\toolchain_specifics.h</file>
@@ -20705,6 +20713,10 @@
       <entry>
          <file>..\src\third_party\rtos\FreeRTOS\Source\include\mpu_prototypes.h</file>
          <hash>8cb02fee372e1cc1958022e054122d248c1c184cfc00eb3db6d0fbc0bfef87d1</hash>
+      </entry>
+      <entry>
+         <file>..\src\third_party\rtos\FreeRTOS\Source\include\mpu_syscall_numbers.h</file>
+         <hash>ae11f0a0ea07101af83b9fc387662703a188bc3dfd71784ee24e85cc2f518ce0</hash>
       </entry>
       <entry>
          <file>..\src\third_party\rtos\FreeRTOS\Source\include\mpu_wrappers.h</file>

@@ -287,6 +287,7 @@
                 <itemPath>../src/config/wfi32_iot/peripheral/i2c/master/plib_i2c2_master.h</itemPath>
                 <itemPath>../src/config/wfi32_iot/peripheral/i2c/master/plib_i2c_master_common.h</itemPath>
               </logicalFolder>
+              <itemPath>../src/config/wfi32_iot/peripheral/i2c/plib_i2c_smbus_common.h</itemPath>
             </logicalFolder>
             <logicalFolder name="nvm" displayName="nvm" projectFiles="true">
               <itemPath>../src/config/wfi32_iot/peripheral/nvm/plib_nvm.h</itemPath>
@@ -375,6 +376,7 @@
             <itemPath>../src/third_party/rtos/FreeRTOS/Source/include/task.h</itemPath>
             <itemPath>../src/third_party/rtos/FreeRTOS/Source/include/portable.h</itemPath>
             <itemPath>../src/third_party/rtos/FreeRTOS/Source/include/stream_buffer.h</itemPath>
+            <itemPath>../src/third_party/rtos/FreeRTOS/Source/include/mpu_syscall_numbers.h</itemPath>
           </logicalFolder>
           <logicalFolder name="portable" displayName="portable" projectFiles="true">
             <logicalFolder name="MPLAB" displayName="MPLAB" projectFiles="true">
@@ -778,6 +780,7 @@
               <logicalFolder name="master" displayName="master" projectFiles="true">
                 <itemPath>../src/config/wfi32_iot/peripheral/i2c/master/plib_i2c2_master.c</itemPath>
               </logicalFolder>
+              <itemPath>../src/config/wfi32_iot/peripheral/i2c/plib_i2c_smbus_common.c</itemPath>
             </logicalFolder>
             <logicalFolder name="nvm" displayName="nvm" projectFiles="true">
               <itemPath>../src/config/wfi32_iot/peripheral/nvm/plib_nvm.c</itemPath>
@@ -1048,7 +1051,7 @@
         <makeUseCleanTarget>false</makeUseCleanTarget>
         <makeCustomizationPreStep></makeCustomizationPreStep>
         <makeCustomizationPostStepEnabled>true</makeCustomizationPostStepEnabled>
-        <makeCustomizationPostStep>rm -rf ${ProjectDir}/../../hex/wfi32_iot_wt_gateway/ &amp;&amp; cp ${ProjectDir}/"dist\wfi32_iot\production\wfi32_iot.X.production.hex" ${ProjectDir}/../../../../hex/wfi32_iot_wt_gateway/</makeCustomizationPostStep>
+        <makeCustomizationPostStep>rm -rf ${ProjectDir}/../../hex/wfi32_iot_wt_gateway/ &amp;&amp; cp ${ProjectDir}/"dist\wfi32_iot\production\wfi32_iot.X.production.hex" ${ProjectDir}/../../../hex/wfi32_iot_wt_gateway</makeCustomizationPostStep>
         <makeCustomizationPutChecksumInUserID>false</makeCustomizationPutChecksumInUserID>
         <makeCustomizationEnableLongLines>false</makeCustomizationEnableLongLines>
         <makeCustomizationNormalizeHexFile>false</makeCustomizationNormalizeHexFile>
@@ -1056,7 +1059,6 @@
       <C32>
         <property key="additional-warnings" value="true"/>
         <property key="addresss-attribute-use" value="false"/>
-        <property key="appendMe" value=""/>
         <property key="enable-app-io" value="false"/>
         <property key="enable-omit-frame-pointer" value="false"/>
         <property key="enable-symbols" value="true"/>
@@ -1087,7 +1089,6 @@
         <property key="additional-options-chop-files" value="false"/>
       </C32-AR>
       <C32-AS>
-        <property key="appendMe" value=""/>
         <property key="assembler-symbols" value=""/>
         <property key="enable-symbols" value="true"/>
         <property key="exclude-floating-point-library" value="false"/>
@@ -1117,7 +1118,6 @@
         <property key="additional-options-use-response-files" value="false"/>
         <property key="additional-options-write-sla" value="false"/>
         <property key="allocate-dinit" value="false"/>
-        <property key="appendMe" value=""/>
         <property key="code-dinit" value="false"/>
         <property key="ebase-addr" value=""/>
         <property key="enable-check-sections" value="false"/>
@@ -1157,7 +1157,6 @@
       <C32CPP>
         <property key="additional-warnings" value="false"/>
         <property key="addresss-attribute-use" value="false"/>
-        <property key="appendMe" value=""/>
         <property key="check-new" value="false"/>
         <property key="eh-specs" value="true"/>
         <property key="enable-app-io" value="false"/>

@@ -2,7 +2,7 @@
 
 manifest_file_version: 1.0.0
 project: wireless_thermostat_gateway_wfi32_iot
-creation_date: 2024-11-27T21:33:52.800+05:30[Asia/Calcutta]
+creation_date: 2025-02-25T15:10:35.289+05:30[Asia/Calcutta]
 operating_system: Windows 10
 mcc_mode: IDE
 mcc_mode_version: v6.20
@@ -15,16 +15,16 @@ is_mcc_offline: false
 is_using_prerelease_versions: false
 mcc_content_registries: https://registry.npmjs.org/
 device_library: {library_class: com.microchip.mcc.harmony.Harmony3Library, name: Harmony
-    V3, version: 1.5.2}
+    V3, version: 1.5.4}
 packs: {name: PIC32MZ-W_DFP, version: 1.10.334}
 modules:
 - {name: cryptoauthlib, type: HARMONY, version: v3.7.6}
-- {name: core, type: HARMONY, version: v3.13.5}
-- {name: csp, type: HARMONY, version: v3.19.7}
-- {name: wireless_wifi, type: HARMONY, version: v3.11.1}
+- {name: core, type: HARMONY, version: v3.14.1}
+- {name: csp, type: HARMONY, version: v3.20.0}
+- {name: wireless_wifi, type: HARMONY, version: v3.12.0}
 - {name: paho.mqtt.embedded-c, type: HARMONY, version: v1.2.3}
+- {name: FreeRTOS-Kernel, type: HARMONY, version: V11.1.0}
 - {name: wireless_system_pic32mzw1_wfi32e01, type: HARMONY, version: v3.9.1}
 - {name: wolfssl, type: HARMONY, version: v5.4.0}
-- {name: net, type: HARMONY, version: v3.12.3}
+- {name: net, type: HARMONY, version: v3.13.0}
 - {name: crypto, type: HARMONY, version: v3.8.2}
-- {name: CMSIS-FreeRTOS, type: HARMONY, version: v11.1.0}

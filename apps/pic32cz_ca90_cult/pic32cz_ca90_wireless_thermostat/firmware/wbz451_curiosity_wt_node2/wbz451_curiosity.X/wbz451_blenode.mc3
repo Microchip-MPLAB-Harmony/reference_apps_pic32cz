@@ -19488,25 +19488,25 @@
     &lt;/PowerProfiles&gt;
     &lt;ComponentGraph dnOrder=&quot;2&quot; id=&quot;__ROOTVIEW&quot;&gt;
       &lt;ElementPositions dnOrder=&quot;0&quot;&gt;
-        &lt;ElementPosition dnOrder=&quot;0&quot; id=&quot;BLE_STACK_LIB&quot; x=&quot;186&quot; y=&quot;82&quot;/&gt;
-        &lt;ElementPosition dnOrder=&quot;1&quot; id=&quot;BSP_WBZ451_Curiosity&quot; x=&quot;30&quot; y=&quot;280&quot;/&gt;
-        &lt;ElementPosition dnOrder=&quot;2&quot; id=&quot;FreeRTOS&quot; x=&quot;350&quot; y=&quot;60&quot;/&gt;
-        &lt;ElementPosition dnOrder=&quot;3&quot; id=&quot;HarmonyCore&quot; x=&quot;510&quot; y=&quot;120&quot;/&gt;
-        &lt;ElementPosition dnOrder=&quot;4&quot; id=&quot;SERVICE_CMS&quot; x=&quot;353&quot; y=&quot;298&quot;/&gt;
-        &lt;ElementPosition dnOrder=&quot;5&quot; id=&quot;adchs&quot; x=&quot;690&quot; y=&quot;140&quot;/&gt;
+        &lt;ElementPosition dnOrder=&quot;0&quot; id=&quot;BLE_STACK_LIB&quot; x=&quot;267&quot; y=&quot;240&quot;/&gt;
+        &lt;ElementPosition dnOrder=&quot;1&quot; id=&quot;BSP_WBZ451_Curiosity&quot; x=&quot;331&quot; y=&quot;75&quot;/&gt;
+        &lt;ElementPosition dnOrder=&quot;2&quot; id=&quot;FreeRTOS&quot; x=&quot;181&quot; y=&quot;80&quot;/&gt;
+        &lt;ElementPosition dnOrder=&quot;3&quot; id=&quot;HarmonyCore&quot; x=&quot;556&quot; y=&quot;67&quot;/&gt;
+        &lt;ElementPosition dnOrder=&quot;4&quot; id=&quot;SERVICE_CMS&quot; x=&quot;554&quot; y=&quot;173&quot;/&gt;
+        &lt;ElementPosition dnOrder=&quot;5&quot; id=&quot;adchs&quot; x=&quot;23&quot; y=&quot;168&quot;/&gt;
         &lt;ElementPosition dnOrder=&quot;6&quot; id=&quot;cmsis&quot; x=&quot;500&quot; y=&quot;20&quot;/&gt;
         &lt;ElementPosition dnOrder=&quot;7&quot; id=&quot;core&quot; x=&quot;400&quot; y=&quot;20&quot;/&gt;
         &lt;ElementPosition dnOrder=&quot;8&quot; id=&quot;dfp&quot; x=&quot;180&quot; y=&quot;20&quot;/&gt;
         &lt;ElementPosition dnOrder=&quot;9&quot; id=&quot;evsys&quot; x=&quot;20&quot; y=&quot;20&quot;/&gt;
-        &lt;ElementPosition dnOrder=&quot;10&quot; id=&quot;lib_crypto&quot; x=&quot;278&quot; y=&quot;221&quot;/&gt;
-        &lt;ElementPosition dnOrder=&quot;11&quot; id=&quot;lib_wolfcrypt&quot; x=&quot;2&quot; y=&quot;153&quot;/&gt;
-        &lt;ElementPosition dnOrder=&quot;12&quot; id=&quot;nvm&quot; x=&quot;617&quot; y=&quot;34&quot;/&gt;
-        &lt;ElementPosition dnOrder=&quot;13&quot; id=&quot;pdsSystem&quot; x=&quot;773&quot; y=&quot;4&quot;/&gt;
-        &lt;ElementPosition dnOrder=&quot;14&quot; id=&quot;pic32cx_bz2_devsupport&quot; x=&quot;549&quot; y=&quot;265&quot;/&gt;
-        &lt;ElementPosition dnOrder=&quot;15&quot; id=&quot;rtc&quot; x=&quot;386&quot; y=&quot;378&quot;/&gt;
-        &lt;ElementPosition dnOrder=&quot;16&quot; id=&quot;sercom0&quot; x=&quot;0&quot; y=&quot;339&quot;/&gt;
-        &lt;ElementPosition dnOrder=&quot;17&quot; id=&quot;sys_console&quot; x=&quot;191&quot; y=&quot;297&quot;/&gt;
-        &lt;ElementPosition dnOrder=&quot;18&quot; id=&quot;tc0&quot; x=&quot;377&quot; y=&quot;147&quot;/&gt;
+        &lt;ElementPosition dnOrder=&quot;10&quot; id=&quot;lib_crypto&quot; x=&quot;258&quot; y=&quot;396&quot;/&gt;
+        &lt;ElementPosition dnOrder=&quot;11&quot; id=&quot;lib_wolfcrypt&quot; x=&quot;54&quot; y=&quot;292&quot;/&gt;
+        &lt;ElementPosition dnOrder=&quot;12&quot; id=&quot;nvm&quot; x=&quot;181&quot; y=&quot;166&quot;/&gt;
+        &lt;ElementPosition dnOrder=&quot;13&quot; id=&quot;pdsSystem&quot; x=&quot;331&quot; y=&quot;120&quot;/&gt;
+        &lt;ElementPosition dnOrder=&quot;14&quot; id=&quot;pic32cx_bz2_devsupport&quot; x=&quot;641&quot; y=&quot;255&quot;/&gt;
+        &lt;ElementPosition dnOrder=&quot;15&quot; id=&quot;rtc&quot; x=&quot;498&quot; y=&quot;369&quot;/&gt;
+        &lt;ElementPosition dnOrder=&quot;16&quot; id=&quot;sercom0&quot; x=&quot;139&quot; y=&quot;549&quot;/&gt;
+        &lt;ElementPosition dnOrder=&quot;17&quot; id=&quot;sys_console&quot; x=&quot;291&quot; y=&quot;485&quot;/&gt;
+        &lt;ElementPosition dnOrder=&quot;18&quot; id=&quot;tc0&quot; x=&quot;24&quot; y=&quot;84&quot;/&gt;
       &lt;/ElementPositions&gt;
     &lt;/ComponentGraph&gt;
   &lt;/UserData&gt;
@@ -28186,7 +28186,7 @@
       </entry>
       <entry>
          <file>..\src\config\pic32cxbz2_wbz451_curiosity\FreeRTOSConfig.h</file>
-         <hash>40bff69a011311082857697d6a83beb14bd6f86db3cd8a3299ae0726518b7f22</hash>
+         <hash>5f73f93607c4c61ce46d3ad9063bde2047942b41232956a2243e5c8416da549d</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32cxbz2_wbz451_curiosity\WBZ451.ld</file>
@@ -28346,7 +28346,7 @@
       </entry>
       <entry>
          <file>..\src\config\pic32cxbz2_wbz451_curiosity\definitions.h</file>
-         <hash>6106005cb32b3d6fc185a36ea2919b6e3d7e2cb9bfce344ffe41febab86b014b</hash>
+         <hash>312b01f6c7c60179f45391c1cd899ee1bbc282d2a6af01b2613c3b10c9442520</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32cxbz2_wbz451_curiosity\device.h</file>
@@ -28410,7 +28410,7 @@
       </entry>
       <entry>
          <file>..\src\config\pic32cxbz2_wbz451_curiosity\exceptions.c</file>
-         <hash>89852728a9a1cc4c9746839cc3caf5308b8698c0c30bf6bfbad0db9e552a387e</hash>
+         <hash>a565e8d25d218b3e1069267ae9cc317161d062683a27c64e3cb454757bb82fd9</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32cxbz2_wbz451_curiosity\framework_defs.h</file>
@@ -28418,11 +28418,11 @@
       </entry>
       <entry>
          <file>..\src\config\pic32cxbz2_wbz451_curiosity\freertos_hooks.c</file>
-         <hash>ee4a4dfc44aa3d45b99065a3d972818fcbd019d39450a67f168aa7f047f55149</hash>
+         <hash>c97b8f92ad60ff513a27ac7a27b3c6824b75005eb8f7b85fe5ae18deaf568c4e</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32cxbz2_wbz451_curiosity\initialization.c</file>
-         <hash>07ae81be8b637b4825e134726c4706ef96d6efe223226ccb7e1ef00d501f7f03</hash>
+         <hash>ec392e43568e61356a10d3034981aab3966f5384eceb88ee490ca99682f9cdbf</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32cxbz2_wbz451_curiosity\interrupts.c</file>
@@ -28530,7 +28530,7 @@
       </entry>
       <entry>
          <file>..\src\config\pic32cxbz2_wbz451_curiosity\peripheral\sercom\usart\plib_sercom0_usart.c</file>
-         <hash>dc9e68e30d9cc47fd71343288f44af92091a427f257a09cb9ea50dc3219d3eef</hash>
+         <hash>5fb9bc723e6da9a8b3af39632b388590a3d26f67806aad122598672e3ca43349</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32cxbz2_wbz451_curiosity\peripheral\sercom\usart\plib_sercom0_usart.h</file>
@@ -28538,7 +28538,7 @@
       </entry>
       <entry>
          <file>..\src\config\pic32cxbz2_wbz451_curiosity\peripheral\sercom\usart\plib_sercom_usart_common.h</file>
-         <hash>f19dafabe0928d60dd83d7e19f35889f200e3fbadff09e2f42523d320acf780a</hash>
+         <hash>3653b66472c558c50f7037a1dd25d2678e9a13aa718f3c53a2195e6f3919ea48</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32cxbz2_wbz451_curiosity\peripheral\tc\plib_tc0.c</file>
@@ -28630,7 +28630,7 @@
       </entry>
       <entry>
          <file>..\src\config\pic32cxbz2_wbz451_curiosity\tasks.c</file>
-         <hash>007975869615e2122628933f7ddd7aed2659d4ebe553971460bb5717d0e3fd40</hash>
+         <hash>42b8198ed080dad37578602554422255369c1151eb902241f69047ae4604e650</hash>
       </entry>
       <entry>
          <file>..\src\config\pic32cxbz2_wbz451_curiosity\toolchain_specifics.h</file>
@@ -29067,6 +29067,10 @@
       <entry>
          <file>..\src\third_party\rtos\FreeRTOS\Source\include\mpu_prototypes.h</file>
          <hash>8cb02fee372e1cc1958022e054122d248c1c184cfc00eb3db6d0fbc0bfef87d1</hash>
+      </entry>
+      <entry>
+         <file>..\src\third_party\rtos\FreeRTOS\Source\include\mpu_syscall_numbers.h</file>
+         <hash>ae11f0a0ea07101af83b9fc387662703a188bc3dfd71784ee24e85cc2f518ce0</hash>
       </entry>
       <entry>
          <file>..\src\third_party\rtos\FreeRTOS\Source\include\mpu_wrappers.h</file>

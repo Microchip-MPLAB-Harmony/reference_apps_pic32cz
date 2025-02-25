@@ -583,7 +583,7 @@ extern "C" {
 #define SYS_WIFI_MAX_CBS					2
 #define SYS_WIFI_COUNTRYCODE        	   "GEN"
 #define SYS_WIFI_STA_SSID        			"DEMO_AP"
-#define SYS_WIFI_STA_PWD        			"12345678"
+#define SYS_WIFI_STA_PWD        			"123456789"
 
 
 #define SYS_WIFI_STA_AUTHTYPE				SYS_WIFI_WPAWPA2MIXED 

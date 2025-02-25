@@ -69,8 +69,11 @@ void _DRV_BA414E_Tasks(  void *pvParameters  )
     }
 }
 
+
 /* Handle for the APP_Tasks. */
 TaskHandle_t xAPP_Tasks;
+
+
 
 static void lAPP_Tasks(  void *pvParameters  )
 {   
@@ -92,12 +95,12 @@ void _TCPIP_STACK_Task(  void *pvParameters  )
 }
 
 TaskHandle_t xSYS_CMD_Tasks;
-void lSYS_CMD_Tasks(  void *pvParameters  )
+static void lSYS_CMD_Tasks(  void *pvParameters  )
 {
-    while(1)
+    while(true)
     {
-        SYS_CMD_Tasks();
-        vTaskDelay(10 / portTICK_PERIOD_MS);
+        (void) SYS_CMD_Tasks();
+        vTaskDelay(10U / portTICK_PERIOD_MS);
     }
 }
 
@@ -164,7 +167,7 @@ void SYS_Tasks ( void )
         "SYS_CMD_TASKS",
         SYS_CMD_RTOS_STACK_SIZE,
         (void*)NULL,
-        SYS_CMD_RTOS_TASK_PRIORITY,
+        SYS_CMD_RTOS_TASK_PRIORITY ,
         &xSYS_CMD_Tasks
     );
 
@@ -226,14 +229,15 @@ void SYS_Tasks ( void )
 
 
     /* Maintain the application's state machine. */
-        /* Create OS Thread for APP_Tasks. */
-    (void) xTaskCreate((TaskFunction_t) lAPP_Tasks,
-                "APP_Tasks",
-                1024,
-                NULL,
-                1,
-                &xAPP_Tasks);
-
+    
+    /* Create OS Thread for APP_Tasks. */
+    (void) xTaskCreate(
+           (TaskFunction_t) lAPP_Tasks,
+           "APP_Tasks",
+           1024,
+           NULL,
+           1U ,
+           &xAPP_Tasks);
 
 
 

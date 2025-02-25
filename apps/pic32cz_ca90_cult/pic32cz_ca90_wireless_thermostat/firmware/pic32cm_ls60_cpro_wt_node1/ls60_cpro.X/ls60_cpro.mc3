@@ -71,7 +71,7 @@
       </entry>
    </usedClasses>
    <usedLibraries class="java.util.ArrayList">
-      <ILibraryFile class="com.microchip.mcc.core.library.BaseLibraryFile" libraryClass="com.microchip.mcc.harmony.Harmony3Library" version="1.5.3"/>
+      <ILibraryFile class="com.microchip.mcc.core.library.BaseLibraryFile" libraryClass="com.microchip.mcc.harmony.Harmony3Library" version="1.5.4"/>
    </usedLibraries>
    <tokenMap class="java.util.TreeMap">
       <entry>
@@ -4631,21 +4631,21 @@
     &lt;ComponentGraph dnOrder=&quot;2&quot; id=&quot;__ROOTVIEW&quot;&gt;
       &lt;ElementPositions dnOrder=&quot;0&quot;&gt;
         &lt;ElementPosition dnOrder=&quot;0&quot; id=&quot;BSP_PIC32CM_LS60_Curiosity_Pro&quot; x=&quot;590&quot; y=&quot;60&quot;/&gt;
-        &lt;ElementPosition dnOrder=&quot;1&quot; id=&quot;HarmonyCore&quot; x=&quot;543&quot; y=&quot;260&quot;/&gt;
-        &lt;ElementPosition dnOrder=&quot;2&quot; id=&quot;RNBD_Dependency&quot; x=&quot;168&quot; y=&quot;237&quot;/&gt;
-        &lt;ElementPosition dnOrder=&quot;3&quot; id=&quot;adc&quot; x=&quot;18&quot; y=&quot;97&quot;/&gt;
-        &lt;ElementPosition dnOrder=&quot;4&quot; id=&quot;cmsis&quot; x=&quot;820&quot; y=&quot;20&quot;/&gt;
+        &lt;ElementPosition dnOrder=&quot;1&quot; id=&quot;HarmonyCore&quot; x=&quot;196&quot; y=&quot;172&quot;/&gt;
+        &lt;ElementPosition dnOrder=&quot;2&quot; id=&quot;RNBD_Dependency&quot; x=&quot;188&quot; y=&quot;273&quot;/&gt;
+        &lt;ElementPosition dnOrder=&quot;3&quot; id=&quot;adc&quot; x=&quot;19&quot; y=&quot;102&quot;/&gt;
+        &lt;ElementPosition dnOrder=&quot;4&quot; id=&quot;cmsis&quot; x=&quot;326&quot; y=&quot;61&quot;/&gt;
         &lt;ElementPosition dnOrder=&quot;5&quot; id=&quot;core&quot; x=&quot;340&quot; y=&quot;20&quot;/&gt;
         &lt;ElementPosition dnOrder=&quot;6&quot; id=&quot;dfp&quot; x=&quot;600&quot; y=&quot;20&quot;/&gt;
         &lt;ElementPosition dnOrder=&quot;7&quot; id=&quot;evsys&quot; x=&quot;180&quot; y=&quot;20&quot;/&gt;
         &lt;ElementPosition dnOrder=&quot;8&quot; id=&quot;nvmctrl&quot; x=&quot;20&quot; y=&quot;20&quot;/&gt;
         &lt;ElementPosition dnOrder=&quot;9&quot; id=&quot;pm&quot; x=&quot;440&quot; y=&quot;20&quot;/&gt;
-        &lt;ElementPosition dnOrder=&quot;10&quot; id=&quot;sercom2&quot; x=&quot;0&quot; y=&quot;275&quot;/&gt;
-        &lt;ElementPosition dnOrder=&quot;11&quot; id=&quot;sercom3&quot; x=&quot;180&quot; y=&quot;82&quot;/&gt;
-        &lt;ElementPosition dnOrder=&quot;12&quot; id=&quot;sercom5&quot; x=&quot;392&quot; y=&quot;174&quot;/&gt;
-        &lt;ElementPosition dnOrder=&quot;13&quot; id=&quot;stdio&quot; x=&quot;322&quot; y=&quot;79&quot;/&gt;
-        &lt;ElementPosition dnOrder=&quot;14&quot; id=&quot;sys_time&quot; x=&quot;705&quot; y=&quot;98&quot;/&gt;
-        &lt;ElementPosition dnOrder=&quot;15&quot; id=&quot;tc0&quot; x=&quot;536&quot; y=&quot;145&quot;/&gt;
+        &lt;ElementPosition dnOrder=&quot;10&quot; id=&quot;sercom2&quot; x=&quot;19&quot; y=&quot;315&quot;/&gt;
+        &lt;ElementPosition dnOrder=&quot;11&quot; id=&quot;sercom3&quot; x=&quot;412&quot; y=&quot;275&quot;/&gt;
+        &lt;ElementPosition dnOrder=&quot;12&quot; id=&quot;sercom5&quot; x=&quot;20&quot; y=&quot;183&quot;/&gt;
+        &lt;ElementPosition dnOrder=&quot;13&quot; id=&quot;stdio&quot; x=&quot;571&quot; y=&quot;265&quot;/&gt;
+        &lt;ElementPosition dnOrder=&quot;14&quot; id=&quot;sys_time&quot; x=&quot;569&quot; y=&quot;137&quot;/&gt;
+        &lt;ElementPosition dnOrder=&quot;15&quot; id=&quot;tc0&quot; x=&quot;408&quot; y=&quot;183&quot;/&gt;
       &lt;/ElementPositions&gt;
     &lt;/ComponentGraph&gt;
   &lt;/UserData&gt;
@@ -13543,7 +13543,7 @@
       </entry>
       <entry>
          <file>..\..\pic32cm_ls60_cpro_wt_node1\src\config\ls60_cpro\definitions.h</file>
-         <hash>ab6acb1094ddbc7f7cc0c3697b84450cd7f70226fbc2a9a1c6e9fedc43b4aefa</hash>
+         <hash>bc266bfde24350f5fc15de13c1e1c7080db151a7e3d6d203953201fc2e67bb60</hash>
       </entry>
       <entry>
          <file>..\..\pic32cm_ls60_cpro_wt_node1\src\config\ls60_cpro\device.h</file>
@@ -13559,11 +13559,11 @@
       </entry>
       <entry>
          <file>..\..\pic32cm_ls60_cpro_wt_node1\src\config\ls60_cpro\exceptions.c</file>
-         <hash>3d788ce1bd25caaaf6b533ec5b06e4b1e753044c1a217dd5cdf8629628ae85a9</hash>
+         <hash>b0b65c30aa1f7a01ef7be6c1628c331a5ca3eae7dc3bd76ebe647703b76f432d</hash>
       </entry>
       <entry>
          <file>..\..\pic32cm_ls60_cpro_wt_node1\src\config\ls60_cpro\initialization.c</file>
-         <hash>3819a6ff4bed32475cb6d707594296f76a52de467a6f1dd7aa446a293214912d</hash>
+         <hash>678db9eaa2ab7d08332360f6bb2e8f48c723a6968a4b9d909c50c8986c2521ce</hash>
       </entry>
       <entry>
          <file>..\..\pic32cm_ls60_cpro_wt_node1\src\config\ls60_cpro\interrupts.c</file>
@@ -13579,7 +13579,7 @@
       </entry>
       <entry>
          <file>..\..\pic32cm_ls60_cpro_wt_node1\src\config\ls60_cpro\osal\osal.h</file>
-         <hash>8404fbe44807fa0484ffb38843a72cb9af8e31c9c30bd1b2594e609b8ea317d9</hash>
+         <hash>1cfe3b61d9693b2369922041eef33fe16b3c1ccd9c85d4ded808b805f90a869c</hash>
       </entry>
       <entry>
          <file>..\..\pic32cm_ls60_cpro_wt_node1\src\config\ls60_cpro\osal\osal_definitions.h</file>
@@ -13587,11 +13587,11 @@
       </entry>
       <entry>
          <file>..\..\pic32cm_ls60_cpro_wt_node1\src\config\ls60_cpro\osal\osal_impl_basic.h</file>
-         <hash>67ce72d34fd1e4dee0b6937fa026ab2c7bd285f82a24da09742c68333adaf0fc</hash>
+         <hash>65e68edbc0320d0407399f65e6d06ff7e6d3d7697231cf1fe0a1fdf1d65f0463</hash>
       </entry>
       <entry>
          <file>..\..\pic32cm_ls60_cpro_wt_node1\src\config\ls60_cpro\peripheral\adc\plib_adc.c</file>
-         <hash>b277e10b262e3e8dfb344c67269d40386ac750f95d8e5577fa07339cdeba004d</hash>
+         <hash>866bc78f5df2f8e40705681de788b6e2cc0dfc10a9f5515f5b4d60e6add63dc4</hash>
       </entry>
       <entry>
          <file>..\..\pic32cm_ls60_cpro_wt_node1\src\config\ls60_cpro\peripheral\adc\plib_adc.h</file>
@@ -13619,11 +13619,11 @@
       </entry>
       <entry>
          <file>..\..\pic32cm_ls60_cpro_wt_node1\src\config\ls60_cpro\peripheral\sercom\i2c_master\plib_sercom5_i2c_master.c</file>
-         <hash>c891ac5444ca06707cde1af45d99f34275973d788394155dfdfb4320d1c78405</hash>
+         <hash>46dcf6c981a5bcf44e45682145115e5719be52eec85478bff7e8ada2c5587eb4</hash>
       </entry>
       <entry>
          <file>..\..\pic32cm_ls60_cpro_wt_node1\src\config\ls60_cpro\peripheral\sercom\i2c_master\plib_sercom5_i2c_master.h</file>
-         <hash>b3ab85899bf3629905de9f09c49fe8f2bccaf9e9ea6ec4d4edb88e6bf8be2dce</hash>
+         <hash>dbbadebbb8a74c7a0306fba60d09b7eeb6c7a1b4c59f71822d0f0706ce1333df</hash>
       </entry>
       <entry>
          <file>..\..\pic32cm_ls60_cpro_wt_node1\src\config\ls60_cpro\peripheral\sercom\i2c_master\plib_sercom_i2c_master_common.h</file>
@@ -13631,7 +13631,7 @@
       </entry>
       <entry>
          <file>..\..\pic32cm_ls60_cpro_wt_node1\src\config\ls60_cpro\peripheral\sercom\usart\plib_sercom2_usart.c</file>
-         <hash>3a4745a7d54d97b7d41159861835117d3e470a8c0c767b0d1cd0a46f9c60fdc7</hash>
+         <hash>3c3d64a8ce3fe4a73a7d09bfff82c11e9fecffb2bd2781d881fc03e1a037fb17</hash>
       </entry>
       <entry>
          <file>..\..\pic32cm_ls60_cpro_wt_node1\src\config\ls60_cpro\peripheral\sercom\usart\plib_sercom2_usart.h</file>
@@ -13639,15 +13639,15 @@
       </entry>
       <entry>
          <file>..\..\pic32cm_ls60_cpro_wt_node1\src\config\ls60_cpro\peripheral\sercom\usart\plib_sercom3_usart.c</file>
-         <hash>157404d773c75b3d1b5bf28c1342819bbc709c3e38f47038086bafbe3b3fadc9</hash>
+         <hash>812561ce855c8078c10c2614ea9596c615748344380072f8204e106c20b2e690</hash>
       </entry>
       <entry>
          <file>..\..\pic32cm_ls60_cpro_wt_node1\src\config\ls60_cpro\peripheral\sercom\usart\plib_sercom3_usart.h</file>
-         <hash>38bd5f257a7dfce1144c3375178920ba13770e7ec6283d7e5014f8af56aeb1bc</hash>
+         <hash>e6b3c5a74a4cc6d70a66fbe08e802db7436d4ec81921d06c37d35e2ca30fe870</hash>
       </entry>
       <entry>
          <file>..\..\pic32cm_ls60_cpro_wt_node1\src\config\ls60_cpro\peripheral\sercom\usart\plib_sercom_usart_common.h</file>
-         <hash>f19dafabe0928d60dd83d7e19f35889f200e3fbadff09e2f42523d320acf780a</hash>
+         <hash>3653b66472c558c50f7037a1dd25d2678e9a13aa718f3c53a2195e6f3919ea48</hash>
       </entry>
       <entry>
          <file>..\..\pic32cm_ls60_cpro_wt_node1\src\config\ls60_cpro\peripheral\tc\plib_tc0.c</file>
@@ -14155,7 +14155,7 @@
       </entry>
       <entry>
          <file>..\..\pic32cm_ls60_cpro_wt_node1_secure\src\config\ls60_cpro\peripheral\clock\plib_clock.h</file>
-         <hash>721136c42046a932de696b169a84343465a44ea204bae3fb8c620a7778dcbf57</hash>
+         <hash>48855ddfcdc10b43a141321e043ab6ad2eb994b09fdba511f17f1d93911c536c</hash>
       </entry>
       <entry>
          <file>..\..\pic32cm_ls60_cpro_wt_node1_secure\src\config\ls60_cpro\peripheral\evsys\plib_evsys.c</file>
@@ -14191,7 +14191,7 @@
       </entry>
       <entry>
          <file>..\..\pic32cm_ls60_cpro_wt_node1_secure\src\config\ls60_cpro\peripheral\port\plib_port.c</file>
-         <hash>d39ff92a5db3a33251fab2015289ae3b1bf6c29432f7f52c0a623b7619662aca</hash>
+         <hash>9b22bf60ae1101536fc2d8d421d4aae6bdb614953862aee446828695651edd6a</hash>
       </entry>
       <entry>
          <file>..\..\pic32cm_ls60_cpro_wt_node1_secure\src\config\ls60_cpro\peripheral\port\plib_port.h</file>

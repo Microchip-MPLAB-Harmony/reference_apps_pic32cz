@@ -89,79 +89,79 @@ void CRYPTO1_FAULT_Handler (void);
 // Section: System Interrupt Vector definitions
 // *****************************************************************************
 // *****************************************************************************
-void CORE_TIMER_Handler (void)
+void __attribute__((used)) CORE_TIMER_Handler (void)
 {
     CORE_TIMER_InterruptHandler();
 }
 
 
 
-void FLASH_CONTROL_Handler (void)
+void __attribute__((used)) FLASH_CONTROL_Handler (void)
 {
     NVM_InterruptHandler();
 }
 
-void UART1_FAULT_Handler (void)
+void __attribute__((used)) UART1_FAULT_Handler (void)
 {
     UART1_FAULT_InterruptHandler();
 }
 
-void UART1_RX_Handler (void)
+void __attribute__((used)) UART1_RX_Handler (void)
 {
     UART1_RX_InterruptHandler();
 }
 
-void UART1_TX_Handler (void)
+void __attribute__((used)) UART1_TX_Handler (void)
 {
     UART1_TX_InterruptHandler();
 }
 
-void UART2_FAULT_Handler (void)
+void __attribute__((used)) UART2_FAULT_Handler (void)
 {
     UART2_FAULT_InterruptHandler();
 }
 
-void UART2_RX_Handler (void)
+void __attribute__((used)) UART2_RX_Handler (void)
 {
     UART2_RX_InterruptHandler();
 }
 
-void UART2_TX_Handler (void)
+void __attribute__((used)) UART2_TX_Handler (void)
 {
     UART2_TX_InterruptHandler();
 }
 
-void I2C2_BUS_Handler (void)
+void __attribute__((used)) I2C2_BUS_Handler (void)
 {
     I2C2_BUS_InterruptHandler();
 }
 
-void I2C2_MASTER_Handler (void)
+void __attribute__((used)) I2C2_MASTER_Handler (void)
 {
     I2C2_MASTER_InterruptHandler();
 }
 
-void RFSMC_Handler (void)
+void __attribute__((used)) RFSMC_Handler (void)
 {
     WDRV_PIC32MZW_TasksRFSMCISR();
 }
 
-void RFMAC_Handler (void)
+void __attribute__((used)) RFMAC_Handler (void)
 {
     WDRV_PIC32MZW_TasksRFMACISR();
 }
 
-void RFTM0_Handler (void)
+void __attribute__((used)) RFTM0_Handler (void)
 {
     WDRV_PIC32MZW_TasksRFTimer0ISR();
 }
 
-void CRYPTO1_Handler (void)
+void __attribute__((used)) CRYPTO1_Handler (void)
 {
     DRV_BA414E_InterruptHandler();
 }
 
-void CRYPTO1_FAULT_Handler (void)
+void __attribute__((used)) CRYPTO1_FAULT_Handler (void)
 {
     DRV_BA414E_ErrorInterruptHandler();
 }

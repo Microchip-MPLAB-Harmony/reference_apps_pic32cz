@@ -61,7 +61,7 @@ void TCC9_PWMInitialize(void)
 {
     /* Reset TCC */
     TCC9_REGS->TCC_CTRLA = TCC_CTRLA_SWRST_Msk;
-    while ((TCC9_REGS->TCC_SYNCBUSY & TCC_SYNCBUSY_SWRST_Msk) != 0U)
+    while((TCC9_REGS->TCC_SYNCBUSY & TCC_SYNCBUSY_SWRST_Msk) == TCC_SYNCBUSY_SWRST_Msk)
     {
         /* Wait for sync */
     }
@@ -98,7 +98,7 @@ void TCC9_PWMInitialize(void)
 void TCC9_PWMStart(void)
 {
     TCC9_REGS->TCC_CTRLA |= TCC_CTRLA_ENABLE_Msk;
-    while ((TCC9_REGS->TCC_SYNCBUSY & TCC_SYNCBUSY_ENABLE_Msk) != 0U)
+    while((TCC9_REGS->TCC_SYNCBUSY & TCC_SYNCBUSY_ENABLE_Msk) == TCC_SYNCBUSY_ENABLE_Msk)
     {
         /* Wait for sync */
     }
@@ -108,7 +108,7 @@ void TCC9_PWMStart(void)
 void TCC9_PWMStop (void)
 {
     TCC9_REGS->TCC_CTRLA &= ~TCC_CTRLA_ENABLE_Msk;
-    while ((TCC9_REGS->TCC_SYNCBUSY & TCC_SYNCBUSY_ENABLE_Msk) != 0U)
+    while((TCC9_REGS->TCC_SYNCBUSY & TCC_SYNCBUSY_ENABLE_Msk) == TCC_SYNCBUSY_ENABLE_Msk)
     {
         /* Wait for sync */
     }
@@ -129,7 +129,7 @@ bool TCC9_PWM32bitPeriodSet (uint32_t period)
 /* Read TCC period */
 uint32_t TCC9_PWM32bitPeriodGet (void)
 {
-    while ((TCC9_REGS->TCC_SYNCBUSY & TCC_SYNCBUSY_PER_Msk) != 0U)
+    while ((TCC9_REGS->TCC_SYNCBUSY & TCC_SYNCBUSY_PER_Msk) == TCC_SYNCBUSY_PER_Msk)
     {
         /* Wait for sync */
     }
@@ -180,7 +180,7 @@ uint32_t TCC9_PWM32bitCounterGet( void )
 void TCC9_PWM32bitCounterSet (uint32_t countVal)
 {
     TCC9_REGS->TCC_COUNT = countVal;
-    while ((TCC9_REGS->TCC_SYNCBUSY & TCC_SYNCBUSY_COUNT_Msk) != 0U)
+    while ((TCC9_REGS->TCC_SYNCBUSY & TCC_SYNCBUSY_COUNT_Msk) == TCC_SYNCBUSY_COUNT_Msk)
     {
         /* Wait for sync */
     }
@@ -190,7 +190,7 @@ void TCC9_PWM32bitCounterSet (uint32_t countVal)
 void TCC9_PWMForceUpdate(void)
 {
     TCC9_REGS->TCC_CTRLBSET |= (uint8_t)TCC_CTRLBCLR_CMD_UPDATE;
-    while ((TCC9_REGS->TCC_SYNCBUSY & TCC_SYNCBUSY_CTRLB_Msk) != 0U)
+    while ((TCC9_REGS->TCC_SYNCBUSY & TCC_SYNCBUSY_CTRLB_Msk) == TCC_SYNCBUSY_CTRLB_Msk)
     {
         /* Wait for sync */
     }
