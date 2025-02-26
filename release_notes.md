@@ -3,7 +3,7 @@
 
 # Microchip MPLAB® Harmony 3 Release Notes
 
-## Reference Applications for PIC32CK MCUs Release v1.0.0
+## Reference Applications for PIC32CZ MCUs Release v1.0.0
 
 The following table provides the list of new applications:
 
@@ -24,7 +24,7 @@ pic32cz_ca90_wireless_thermostat
 | Application | Description | MCU | Development Board/Kit | Comment |  
 | --- | --- | --- | --- | --- |  
 | [pic32cz_ca90_getting_started_ext](./apps/pic32cz_ca90_cult/pic32cz_ca90_getting_started_ext/readme.md) |  Getting Started using Harmony v3 Peripheral Libraries	| [PIC32CZ CA90](https://www.microchip.com/wwwproducts/en/PIC32CZ8110CA90208) | [PIC32CZ CA90 Curiosity Ultra Development Board](https://www.microchip.com/en-us/development-tool/ev16w43a)| Moved in from [reference_apps](https://github.com/Microchip-MPLAB-Harmony/reference_apps) repo |
-| [pic32cz_ca80_getting_started_ext](./apps/pic32cz_ca80_cult/pic32cz_ca80_getting_started_ext/readme.md) |  Getting Started using Harmony v3 Peripheral Libraries | [PIC32CZ CA80](PIC32CZ8110CA80208) | [PIC32CZ CA80 Curiosity Ultra Development Board](https://www.microchip.com/en-us/development-tool/ev51s73a)| Moved in from [reference_apps](https://github.com/Microchip-MPLAB-Harmony/reference_apps) repo |
+| [pic32cz_ca80_getting_started_ext](./apps/pic32cz_ca80_cult/pic32cz_ca80_getting_started_ext/readme.md) |  Getting Started using Harmony v3 Peripheral Libraries | [PIC32CZ CA80](https://www.microchip.com/wwwproducts/en/PIC32CZ8110CA80208) | [PIC32CZ CA80 Curiosity Ultra Development Board](https://www.microchip.com/en-us/development-tool/ev51s73a)| Moved in from [reference_apps](https://github.com/Microchip-MPLAB-Harmony/reference_apps) repo |
 
 ### Deleted Applications  
 
