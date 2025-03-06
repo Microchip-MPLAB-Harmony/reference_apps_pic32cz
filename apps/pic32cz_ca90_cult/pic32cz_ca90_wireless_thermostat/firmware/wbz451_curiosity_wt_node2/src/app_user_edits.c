@@ -46,9 +46,6 @@
   Remarks:
  *******************************************************************************/
 
-//#error User action required - manually edit files as described here
-// after completing the required edits, comment out or remove the #error line
-
 /********************************************************************
  * TODO apply the edit steps described here:
 
