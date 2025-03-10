@@ -27,7 +27,7 @@ package:
       version: "v3.9.1"
     - name: "wolfssl"
       type: "package"
-      version: "v5.7.0"
+      version: "v5.4.0"
     - name: "net"
       type: "package"
       version: "v3.13.0"
