@@ -1,0 +1,138 @@
+configVersion: 1.0.0
+componentName: twihs0
+coreVersion: 5.8.2
+device: PIC32CZ2051CA70144
+library: []
+dependency:
+- dependencyPackage: class com.microchip.mcc.harmony.HarmonyModule
+  name: twihs0
+  type: module
+  version: ''
+- dependencyPackage: ''
+  name: csp
+  type: package
+  version: v3.22.4
+customDataClassName: com.microchip.utils_mh3.utils.persistence.CustomModuleData
+data:
+  attachments:
+    children:
+    - children:
+      - attributes:
+          id: TWIHS0_I2C
+        children:
+        - children:
+          - attributes:
+              id: targetComponentID
+            children:
+            - type: Value
+              value: drv_i2c_0
+            type: String
+          - attributes:
+              id: targetAttachmentID
+            children:
+            - type: Value
+              value: drv_i2c_I2C_dependency
+            type: String
+          type: Attributes
+        type: DirectCapability
+      type: Attachments
+    type: twihs0
+  elementPosition:
+    attributes:
+      id: __ROOTVIEW
+    children:
+    - children:
+      - attributes:
+          id: twihs0
+          x: '445'
+          y: '139'
+        type: ElementPosition
+      type: ElementPositions
+    type: ComponentGraph
+  symbols:
+    TWIHS_CLK_SRC_FREQ:
+      attributes:
+        id: TWIHS_CLK_SRC_FREQ
+      children:
+      - children:
+        - attributes:
+            id: twihs0
+            value: '150000000'
+          type: Dynamic
+        type: Values
+      type: Integer
+    TWIHS_CWGR_CHDIV:
+      attributes:
+        id: TWIHS_CWGR_CHDIV
+      children:
+      - children:
+        - attributes:
+            id: twihs0
+            value: '177'
+          type: Dynamic
+        type: Values
+      type: Integer
+    TWIHS_CWGR_CKDIV:
+      attributes:
+        id: TWIHS_CWGR_CKDIV
+      children:
+      - children:
+        - attributes:
+            id: twihs0
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: Integer
+    TWIHS_CWGR_CLDIV:
+      attributes:
+        id: TWIHS_CWGR_CLDIV
+      children:
+      - children:
+        - attributes:
+            id: twihs0
+            value: '192'
+          type: Dynamic
+        type: Values
+      type: Integer
+    TWIHS_INTERRUPT_MODE:
+      attributes:
+        id: TWIHS_INTERRUPT_MODE
+      children:
+      - children:
+        - attributes:
+            id: twihs0
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    TWIHS_OPMODE:
+      attributes:
+        id: TWIHS_OPMODE
+      children:
+      - children:
+        - attributes:
+            id: readOnly
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      - children:
+        - attributes:
+            id: twihs0
+            value: MASTER
+          type: Dynamic
+        type: Values
+      type: Combo
+    TWIHS_TIMEOUT_COUNT_VAL:
+      attributes:
+        id: TWIHS_TIMEOUT_COUNT_VAL
+      children:
+      - children:
+        - attributes:
+            id: twihs0
+            value: '60000'
+          type: Dynamic
+        type: Values
+      type: Integer
+  userData: {}

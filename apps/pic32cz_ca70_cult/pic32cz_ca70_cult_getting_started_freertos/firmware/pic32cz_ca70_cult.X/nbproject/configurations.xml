@@ -5,75 +5,77 @@
                    displayName="Header Files"
                    projectFiles="true">
       <logicalFolder name="config" displayName="config" projectFiles="true">
-        <logicalFolder name="default" displayName="default" projectFiles="true">
+        <logicalFolder name="pic32cz_ca70_cult"
+                       displayName="pic32cz_ca70_cult"
+                       projectFiles="true">
           <logicalFolder name="driver" displayName="driver" projectFiles="true">
             <logicalFolder name="i2c" displayName="i2c" projectFiles="true">
-              <itemPath>../src/config/default/driver/i2c/src/drv_i2c_local.h</itemPath>
-              <itemPath>../src/config/default/driver/i2c/drv_i2c.h</itemPath>
-              <itemPath>../src/config/default/driver/i2c/drv_i2c_definitions.h</itemPath>
+              <itemPath>../src/config/pic32cz_ca70_cult/driver/i2c/drv_i2c.h</itemPath>
+              <itemPath>../src/config/pic32cz_ca70_cult/driver/i2c/drv_i2c_definitions.h</itemPath>
+              <itemPath>../src/config/pic32cz_ca70_cult/driver/i2c/src/drv_i2c_local.h</itemPath>
             </logicalFolder>
             <logicalFolder name="usart" displayName="usart" projectFiles="true">
-              <itemPath>../src/config/default/driver/usart/src/drv_usart_local.h</itemPath>
-              <itemPath>../src/config/default/driver/usart/drv_usart_definitions.h</itemPath>
-              <itemPath>../src/config/default/driver/usart/drv_usart.h</itemPath>
+              <itemPath>../src/config/pic32cz_ca70_cult/driver/usart/drv_usart_definitions.h</itemPath>
+              <itemPath>../src/config/pic32cz_ca70_cult/driver/usart/src/drv_usart_local.h</itemPath>
+              <itemPath>../src/config/pic32cz_ca70_cult/driver/usart/drv_usart.h</itemPath>
             </logicalFolder>
-            <itemPath>../src/config/default/driver/driver.h</itemPath>
-            <itemPath>../src/config/default/driver/driver_common.h</itemPath>
+            <itemPath>../src/config/pic32cz_ca70_cult/driver/driver.h</itemPath>
+            <itemPath>../src/config/pic32cz_ca70_cult/driver/driver_common.h</itemPath>
           </logicalFolder>
           <logicalFolder name="osal" displayName="osal" projectFiles="true">
-            <itemPath>../src/config/default/osal/osal_freertos.h</itemPath>
-            <itemPath>../src/config/default/osal/osal_definitions.h</itemPath>
-            <itemPath>../src/config/default/osal/osal.h</itemPath>
+            <itemPath>../src/config/pic32cz_ca70_cult/osal/osal.h</itemPath>
+            <itemPath>../src/config/pic32cz_ca70_cult/osal/osal_definitions.h</itemPath>
+            <itemPath>../src/config/pic32cz_ca70_cult/osal/osal_freertos.h</itemPath>
           </logicalFolder>
           <logicalFolder name="peripheral" displayName="peripheral" projectFiles="true">
             <logicalFolder name="clk" displayName="clk" projectFiles="true">
-              <itemPath>../src/config/default/peripheral/clk/plib_clk.h</itemPath>
+              <itemPath>../src/config/pic32cz_ca70_cult/peripheral/clk/plib_clk.h</itemPath>
             </logicalFolder>
             <logicalFolder name="efc" displayName="efc" projectFiles="true">
-              <itemPath>../src/config/default/peripheral/efc/plib_efc.h</itemPath>
+              <itemPath>../src/config/pic32cz_ca70_cult/peripheral/efc/plib_efc.h</itemPath>
             </logicalFolder>
             <logicalFolder name="nvic" displayName="nvic" projectFiles="true">
-              <itemPath>../src/config/default/peripheral/nvic/plib_nvic.h</itemPath>
+              <itemPath>../src/config/pic32cz_ca70_cult/peripheral/nvic/plib_nvic.h</itemPath>
             </logicalFolder>
             <logicalFolder name="pio" displayName="pio" projectFiles="true">
-              <itemPath>../src/config/default/peripheral/pio/plib_pio.h</itemPath>
+              <itemPath>../src/config/pic32cz_ca70_cult/peripheral/pio/plib_pio.h</itemPath>
             </logicalFolder>
             <logicalFolder name="twihs" displayName="twihs" projectFiles="true">
               <logicalFolder name="master" displayName="master" projectFiles="true">
-                <itemPath>../src/config/default/peripheral/twihs/master/plib_twihs_master_common.h</itemPath>
-                <itemPath>../src/config/default/peripheral/twihs/master/plib_twihs0_master.h</itemPath>
+                <itemPath>../src/config/pic32cz_ca70_cult/peripheral/twihs/master/plib_twihs_master_common.h</itemPath>
+                <itemPath>../src/config/pic32cz_ca70_cult/peripheral/twihs/master/plib_twihs0_master.h</itemPath>
               </logicalFolder>
             </logicalFolder>
             <logicalFolder name="uart" displayName="uart" projectFiles="true">
-              <itemPath>../src/config/default/peripheral/uart/plib_uart_common.h</itemPath>
-              <itemPath>../src/config/default/peripheral/uart/plib_uart1.h</itemPath>
+              <itemPath>../src/config/pic32cz_ca70_cult/peripheral/uart/plib_uart_common.h</itemPath>
+              <itemPath>../src/config/pic32cz_ca70_cult/peripheral/uart/plib_uart1.h</itemPath>
             </logicalFolder>
           </logicalFolder>
           <logicalFolder name="system" displayName="system" projectFiles="true">
             <logicalFolder name="cache" displayName="cache" projectFiles="true">
-              <itemPath>../src/config/default/system/cache/sys_cache.h</itemPath>
+              <itemPath>../src/config/pic32cz_ca70_cult/system/cache/sys_cache.h</itemPath>
             </logicalFolder>
             <logicalFolder name="debug" displayName="debug" projectFiles="true">
-              <itemPath>../src/config/default/system/debug/sys_debug.h</itemPath>
+              <itemPath>../src/config/pic32cz_ca70_cult/system/debug/sys_debug.h</itemPath>
             </logicalFolder>
             <logicalFolder name="int" displayName="int" projectFiles="true">
-              <itemPath>../src/config/default/system/int/sys_int_mapping.h</itemPath>
-              <itemPath>../src/config/default/system/int/sys_int.h</itemPath>
+              <itemPath>../src/config/pic32cz_ca70_cult/system/int/sys_int.h</itemPath>
+              <itemPath>../src/config/pic32cz_ca70_cult/system/int/sys_int_mapping.h</itemPath>
             </logicalFolder>
-            <itemPath>../src/config/default/system/system.h</itemPath>
-            <itemPath>../src/config/default/system/system_module.h</itemPath>
-            <itemPath>../src/config/default/system/system_common.h</itemPath>
+            <itemPath>../src/config/pic32cz_ca70_cult/system/system.h</itemPath>
+            <itemPath>../src/config/pic32cz_ca70_cult/system/system_common.h</itemPath>
+            <itemPath>../src/config/pic32cz_ca70_cult/system/system_module.h</itemPath>
           </logicalFolder>
-          <itemPath>../src/config/default/sys_tasks.h</itemPath>
-          <itemPath>../src/config/default/FreeRTOSConfig.h</itemPath>
-          <itemPath>../src/config/default/user.h</itemPath>
-          <itemPath>../src/config/default/toolchain_specifics.h</itemPath>
-          <itemPath>../src/config/default/device.h</itemPath>
-          <itemPath>../src/config/default/device_vectors.h</itemPath>
-          <itemPath>../src/config/default/configuration.h</itemPath>
-          <itemPath>../src/config/default/definitions.h</itemPath>
-          <itemPath>../src/config/default/device_cache.h</itemPath>
-          <itemPath>../src/config/default/interrupts.h</itemPath>
+          <itemPath>../src/config/pic32cz_ca70_cult/device_cache.h</itemPath>
+          <itemPath>../src/config/pic32cz_ca70_cult/toolchain_specifics.h</itemPath>
+          <itemPath>../src/config/pic32cz_ca70_cult/definitions.h</itemPath>
+          <itemPath>../src/config/pic32cz_ca70_cult/interrupts.h</itemPath>
+          <itemPath>../src/config/pic32cz_ca70_cult/device_vectors.h</itemPath>
+          <itemPath>../src/config/pic32cz_ca70_cult/device.h</itemPath>
+          <itemPath>../src/config/pic32cz_ca70_cult/FreeRTOSConfig.h</itemPath>
+          <itemPath>../src/config/pic32cz_ca70_cult/user.h</itemPath>
+          <itemPath>../src/config/pic32cz_ca70_cult/configuration.h</itemPath>
+          <itemPath>../src/config/pic32cz_ca70_cult/sys_tasks.h</itemPath>
         </logicalFolder>
       </logicalFolder>
       <logicalFolder name="FreeRTOS" displayName="FreeRTOS" projectFiles="true">
@@ -109,24 +111,6 @@
         </logicalFolder>
       </logicalFolder>
       <logicalFolder name="packs" displayName="packs" projectFiles="true">
-        <logicalFolder name="CMSIS" displayName="CMSIS" projectFiles="true">
-          <logicalFolder name="CMSIS" displayName="CMSIS" projectFiles="true">
-            <logicalFolder name="Core" displayName="Core" projectFiles="true">
-              <logicalFolder name="Include" displayName="Include" projectFiles="true">
-                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cmsis_gcc.h</itemPath>
-                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cmsis_compiler.h</itemPath>
-                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cmsis_version.h</itemPath>
-                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cmsis_armcc.h</itemPath>
-                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cmsis_iccarm.h</itemPath>
-                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cmsis_armclang.h</itemPath>
-                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cmsis_armclang_ltm.h</itemPath>
-                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/core_cm7.h</itemPath>
-                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/mpu_armv7.h</itemPath>
-                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cachel1_armv7.h</itemPath>
-              </logicalFolder>
-            </logicalFolder>
-          </logicalFolder>
-        </logicalFolder>
         <logicalFolder name="PIC32CZ2051CA70144_DFP"
                        displayName="PIC32CZ2051CA70144_DFP"
                        projectFiles="true">
@@ -241,15 +225,40 @@
     <logicalFolder name="ExternalFiles"
                    displayName="Important Files"
                    projectFiles="true">
+      <logicalFolder name="getting_started_freertos_pic32cz_ca70_cult_pic32cz_ca70_cult"
+                     displayName="getting_started_freertos_pic32cz_ca70_cult_pic32cz_ca70_cult"
+                     projectFiles="true">
+        <logicalFolder name="components" displayName="components" projectFiles="true">
+          <itemPath>getting_started_freertos_pic32cz_ca70_cult_pic32cz_ca70_cult/components/efc.yml</itemPath>
+          <itemPath>getting_started_freertos_pic32cz_ca70_cult_pic32cz_ca70_cult/components/FreeRTOS.yml</itemPath>
+          <itemPath>getting_started_freertos_pic32cz_ca70_cult_pic32cz_ca70_cult/components/cmsis.yml</itemPath>
+          <itemPath>getting_started_freertos_pic32cz_ca70_cult_pic32cz_ca70_cult/components/drv_usart_0.yml</itemPath>
+          <itemPath>getting_started_freertos_pic32cz_ca70_cult_pic32cz_ca70_cult/components/HarmonyCore.yml</itemPath>
+          <itemPath>getting_started_freertos_pic32cz_ca70_cult_pic32cz_ca70_cult/components/drv_usart.yml</itemPath>
+          <itemPath>getting_started_freertos_pic32cz_ca70_cult_pic32cz_ca70_cult/components/uart1.yml</itemPath>
+          <itemPath>getting_started_freertos_pic32cz_ca70_cult_pic32cz_ca70_cult/components/core.yml</itemPath>
+          <itemPath>getting_started_freertos_pic32cz_ca70_cult_pic32cz_ca70_cult/components/drv_i2c.yml</itemPath>
+          <itemPath>getting_started_freertos_pic32cz_ca70_cult_pic32cz_ca70_cult/components/twihs0.yml</itemPath>
+          <itemPath>getting_started_freertos_pic32cz_ca70_cult_pic32cz_ca70_cult/components/drv_i2c_0.yml</itemPath>
+          <itemPath>getting_started_freertos_pic32cz_ca70_cult_pic32cz_ca70_cult/components/dfp.yml</itemPath>
+        </logicalFolder>
+        <itemPath>getting_started_freertos_pic32cz_ca70_cult_pic32cz_ca70_cult/mcc-config.mc4</itemPath>
+      </logicalFolder>
       <itemPath>Makefile</itemPath>
-      <itemPath>getting_started_freertos_pic32cz_ca70_cult.mc3</itemPath>
+      <itemPath>../src/config/pic32cz_ca70_cult/pin_configurations.csv</itemPath>
+    </logicalFolder>
+    <logicalFolder name="LibraryFiles"
+                   displayName="LibraryFiles"
+                   projectFiles="true">
     </logicalFolder>
     <logicalFolder name="LinkerScript"
                    displayName="Linker Files"
                    projectFiles="true">
       <logicalFolder name="config" displayName="config" projectFiles="true">
-        <logicalFolder name="default" displayName="default" projectFiles="true">
-          <itemPath>../src/config/default/PIC32CZ2051CA70144.ld</itemPath>
+        <logicalFolder name="pic32cz_ca70_cult"
+                       displayName="pic32cz_ca70_cult"
+                       projectFiles="true">
+          <itemPath>../src/config/pic32cz_ca70_cult/PIC32CZ2051CA70144.ld</itemPath>
         </logicalFolder>
       </logicalFolder>
     </logicalFolder>
@@ -257,58 +266,60 @@
                    displayName="Source Files"
                    projectFiles="true">
       <logicalFolder name="config" displayName="config" projectFiles="true">
-        <logicalFolder name="default" displayName="default" projectFiles="true">
+        <logicalFolder name="pic32cz_ca70_cult"
+                       displayName="pic32cz_ca70_cult"
+                       projectFiles="true">
           <logicalFolder name="driver" displayName="driver" projectFiles="true">
             <logicalFolder name="i2c" displayName="i2c" projectFiles="true">
-              <itemPath>../src/config/default/driver/i2c/src/drv_i2c.c</itemPath>
+              <itemPath>../src/config/pic32cz_ca70_cult/driver/i2c/src/drv_i2c.c</itemPath>
             </logicalFolder>
             <logicalFolder name="usart" displayName="usart" projectFiles="true">
-              <itemPath>../src/config/default/driver/usart/src/drv_usart.c</itemPath>
+              <itemPath>../src/config/pic32cz_ca70_cult/driver/usart/src/drv_usart.c</itemPath>
             </logicalFolder>
           </logicalFolder>
           <logicalFolder name="osal" displayName="osal" projectFiles="true">
-            <itemPath>../src/config/default/osal/osal_freertos.c</itemPath>
+            <itemPath>../src/config/pic32cz_ca70_cult/osal/osal_freertos.c</itemPath>
           </logicalFolder>
           <logicalFolder name="peripheral" displayName="peripheral" projectFiles="true">
             <logicalFolder name="clk" displayName="clk" projectFiles="true">
-              <itemPath>../src/config/default/peripheral/clk/plib_clk.c</itemPath>
+              <itemPath>../src/config/pic32cz_ca70_cult/peripheral/clk/plib_clk.c</itemPath>
             </logicalFolder>
             <logicalFolder name="efc" displayName="efc" projectFiles="true">
-              <itemPath>../src/config/default/peripheral/efc/plib_efc.c</itemPath>
+              <itemPath>../src/config/pic32cz_ca70_cult/peripheral/efc/plib_efc.c</itemPath>
             </logicalFolder>
             <logicalFolder name="nvic" displayName="nvic" projectFiles="true">
-              <itemPath>../src/config/default/peripheral/nvic/plib_nvic.c</itemPath>
+              <itemPath>../src/config/pic32cz_ca70_cult/peripheral/nvic/plib_nvic.c</itemPath>
             </logicalFolder>
             <logicalFolder name="pio" displayName="pio" projectFiles="true">
-              <itemPath>../src/config/default/peripheral/pio/plib_pio.c</itemPath>
+              <itemPath>../src/config/pic32cz_ca70_cult/peripheral/pio/plib_pio.c</itemPath>
             </logicalFolder>
             <logicalFolder name="twihs" displayName="twihs" projectFiles="true">
               <logicalFolder name="master" displayName="master" projectFiles="true">
-                <itemPath>../src/config/default/peripheral/twihs/master/plib_twihs0_master.c</itemPath>
+                <itemPath>../src/config/pic32cz_ca70_cult/peripheral/twihs/master/plib_twihs0_master.c</itemPath>
               </logicalFolder>
             </logicalFolder>
             <logicalFolder name="uart" displayName="uart" projectFiles="true">
-              <itemPath>../src/config/default/peripheral/uart/plib_uart1.c</itemPath>
+              <itemPath>../src/config/pic32cz_ca70_cult/peripheral/uart/plib_uart1.c</itemPath>
             </logicalFolder>
           </logicalFolder>
           <logicalFolder name="stdio" displayName="stdio" projectFiles="true">
-            <itemPath>../src/config/default/stdio/xc32_monitor.c</itemPath>
+            <itemPath>../src/config/pic32cz_ca70_cult/stdio/xc32_monitor.c</itemPath>
           </logicalFolder>
           <logicalFolder name="system" displayName="system" projectFiles="true">
             <logicalFolder name="cache" displayName="cache" projectFiles="true">
-              <itemPath>../src/config/default/system/cache/sys_cache.c</itemPath>
+              <itemPath>../src/config/pic32cz_ca70_cult/system/cache/sys_cache.c</itemPath>
             </logicalFolder>
             <logicalFolder name="int" displayName="int" projectFiles="true">
-              <itemPath>../src/config/default/system/int/src/sys_int.c</itemPath>
+              <itemPath>../src/config/pic32cz_ca70_cult/system/int/src/sys_int.c</itemPath>
             </logicalFolder>
           </logicalFolder>
-          <itemPath>../src/config/default/freertos_hooks.c</itemPath>
-          <itemPath>../src/config/default/exceptions.c</itemPath>
-          <itemPath>../src/config/default/tasks.c</itemPath>
-          <itemPath>../src/config/default/initialization.c</itemPath>
-          <itemPath>../src/config/default/startup_xc32.c</itemPath>
-          <itemPath>../src/config/default/libc_syscalls.c</itemPath>
-          <itemPath>../src/config/default/interrupts.c</itemPath>
+          <itemPath>../src/config/pic32cz_ca70_cult/initialization.c</itemPath>
+          <itemPath>../src/config/pic32cz_ca70_cult/interrupts.c</itemPath>
+          <itemPath>../src/config/pic32cz_ca70_cult/exceptions.c</itemPath>
+          <itemPath>../src/config/pic32cz_ca70_cult/startup_xc32.c</itemPath>
+          <itemPath>../src/config/pic32cz_ca70_cult/libc_syscalls.c</itemPath>
+          <itemPath>../src/config/pic32cz_ca70_cult/freertos_hooks.c</itemPath>
+          <itemPath>../src/config/pic32cz_ca70_cult/tasks.c</itemPath>
         </logicalFolder>
       </logicalFolder>
       <logicalFolder name="FreeRTOS" displayName="FreeRTOS" projectFiles="true">
@@ -338,7 +349,6 @@
       <itemPath>../src/main.c</itemPath>
       <itemPath>../src/app_user_input_thread.c</itemPath>
       <itemPath>../src/app_sensor_thread.c</itemPath>
-      <itemPath>../src/config/default/pin_configurations.csv</itemPath>
     </logicalFolder>
   </logicalFolder>
   <projectmakefile>Makefile</projectmakefile>
@@ -355,8 +365,8 @@
         <platform>3</platform>
       </toolsSet>
       <packs>
-        <pack name="CMSIS" vendor="ARM" version="5.8.0"/>
         <pack name="PIC32CZ-CA70_DFP" vendor="Microchip" version="1.2.32"/>
+        <pack name="CMSIS" vendor="ARM" version="5.8.0"/>
       </packs>
       <ScriptingSettings>
       </ScriptingSettings>
@@ -388,7 +398,6 @@
       <C32>
         <property key="additional-warnings" value="true"/>
         <property key="addresss-attribute-use" value="false"/>
-        <property key="appendMe" value=""/>
         <property key="cast-align" value="false"/>
         <property key="code-model" value="default"/>
         <property key="const-model" value="default"/>
@@ -403,7 +412,7 @@
         <property key="exclude-floating-point" value="false"/>
         <property key="expand-pragma-config" value="false"/>
         <property key="extra-include-directories"
-                  value="../src;../src/config/default;../src/packs/CMSIS/;../src/packs/CMSIS/CMSIS/Core/Include;../src/packs/PIC32CZ2051CA70144_DFP;../src/third_party/rtos/FreeRTOS/Source/include;../src/third_party/rtos/FreeRTOS/Source/portable/GCC/SAM/CM7"/>
+                  value="../src;../src/config/default;../src/config/pic32cz_ca70_cult;../src/packs/CMSIS/;../src/packs/CMSIS/CMSIS/Core/Include;../src/packs/PIC32CZ2051CA70144_DFP;../src/third_party/rtos/FreeRTOS/Source/include;../src/third_party/rtos/FreeRTOS/Source/portable/GCC/SAM/CM7"/>
         <property key="generate-16-bit-code" value="false"/>
         <property key="generate-micro-compressed-code" value="false"/>
         <property key="isolate-each-function" value="true"/>
@@ -467,7 +476,6 @@
         <property key="additional-options-use-response-files" value="false"/>
         <property key="additional-options-write-sla" value="false"/>
         <property key="allocate-dinit" value="false"/>
-        <property key="appendMe" value=""/>
         <property key="code-dinit" value="false"/>
         <property key="ebase-addr" value=""/>
         <property key="enable-check-sections" value="false"/>
@@ -513,7 +521,6 @@
       <C32CPP>
         <property key="additional-warnings" value="false"/>
         <property key="addresss-attribute-use" value="false"/>
-        <property key="appendMe" value=""/>
         <property key="check-new" value="false"/>
         <property key="eh-specs" value="true"/>
         <property key="enable-app-io" value="false"/>
@@ -523,7 +530,7 @@
         <property key="exceptions" value="true"/>
         <property key="exclude-floating-point" value="false"/>
         <property key="extra-include-directories"
-                  value="../src;../src/config/default;../src/packs/CMSIS/;../src/packs/CMSIS/CMSIS/Core/Include;../src/packs/PIC32CZ2051CA70144_DFP;../src/third_party/rtos/FreeRTOS/Source/include;../src/third_party/rtos/FreeRTOS/Source/portable/GCC/SAM/CM7"/>
+                  value="../src;../src/config/default;../src/config/pic32cz_ca70_cult;../src/packs/CMSIS/;../src/packs/CMSIS/CMSIS/Core/Include;../src/packs/PIC32CZ2051CA70144_DFP;../src/third_party/rtos/FreeRTOS/Source/include;../src/third_party/rtos/FreeRTOS/Source/portable/GCC/SAM/CM7"/>
         <property key="generate-16-bit-code" value="false"/>
         <property key="generate-micro-compressed-code" value="false"/>
         <property key="isolate-each-function" value="true"/>
@@ -542,7 +549,6 @@
         <property key="use-indirect-calls" value="false"/>
       </C32CPP>
       <C32Global>
-        <property key="appendMe" value=""/>
         <property key="combine-sourcefiles" value="false"/>
         <property key="common-include-directories" value=""/>
         <property key="common-macros" value=""/>
@@ -596,6 +602,8 @@
                   value="${memories.instruction.ram.ranges}"/>
         <property key="memories.programmemory" value="true"/>
         <property key="memories.programmemory.ranges" value="0-9fffffff"/>
+        <property key="programmerToGoFilePath"
+                  value="D:/0/firmware/pic32cz_ca70_cult.X/debug/pic32cz_ca70_cult/pic32cz_ca70_cult_ptg"/>
         <property key="programoptions.donoteraseauxmem" value="false"/>
         <property key="programoptions.eraseb4program" value="true"/>
         <property key="programoptions.pgmentry.voltage" value="low"/>
