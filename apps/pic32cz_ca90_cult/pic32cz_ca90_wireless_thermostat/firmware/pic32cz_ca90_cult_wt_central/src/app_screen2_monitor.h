@@ -90,7 +90,7 @@ typedef enum
 
 } ML_MONITOR_SCREEN_STATE;
 
-ML_MONITOR_SCREEN_STATE appScreenMLMonitorState;
+extern ML_MONITOR_SCREEN_STATE appScreenMLMonitorState;
 
 // *****************************************************************************
 // *****************************************************************************

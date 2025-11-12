@@ -128,7 +128,7 @@ static leChar statusStrBuff1[MAX_TEXT_LENGTH] = {0};
 
 extern volatile bool bleConnect_Ready;
 
-extern APP_BLE_DATA app_bleData;
+ML_SETLIMIT_SCREEN_STATE appScreenMLSetLimitState = ML_SETLIMIT_INIT;
 
 // *****************************************************************************
 // *****************************************************************************

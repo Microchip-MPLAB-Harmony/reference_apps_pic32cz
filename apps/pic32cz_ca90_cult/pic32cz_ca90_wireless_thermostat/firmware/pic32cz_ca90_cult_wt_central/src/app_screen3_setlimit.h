@@ -90,8 +90,6 @@ typedef enum
     ML_SETLIMIT_WAIT,    
 } ML_SETLIMIT_SCREEN_STATE;
 
-ML_SETLIMIT_SCREEN_STATE appScreenMLSetLimitState;
-
 // *****************************************************************************
 // *****************************************************************************
 // Section: Interface Functions

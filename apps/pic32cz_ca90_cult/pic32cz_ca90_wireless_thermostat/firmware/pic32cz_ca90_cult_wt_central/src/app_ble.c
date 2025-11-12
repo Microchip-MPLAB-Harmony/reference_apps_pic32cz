@@ -97,6 +97,10 @@ APP_BLE_DEVICE multiLinkDemoDevices[MULTILINK_NUM_DEVICES] =
     {.valid = true, .active = true, .deviceAddress = "A6A5A4A3A2A1", .deviceName = "N2"},
       
 };
+APP_BLE_DATA app_bleData = {0};
+char statusBuffer[MAX_BUFFER_SIZE] = {0};
+ML_MONITOR_SCREEN_STATE appScreenMLMonitorState = ML_MONITOR_INIT;
+ML_CONNECT_SCREEN_STATE appScreenMLConnectState = ML_CONNECT_INIT;
 extern SYS_TIME_HANDLE mlConnectProgressTimer;
 static volatile bool status = false;
 

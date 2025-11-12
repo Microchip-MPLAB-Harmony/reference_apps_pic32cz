@@ -99,7 +99,7 @@ typedef enum
     ML_CONNECT_WAIT,
 } ML_CONNECT_SCREEN_STATE;
 
-ML_CONNECT_SCREEN_STATE appScreenMLConnectState;
+extern ML_CONNECT_SCREEN_STATE appScreenMLConnectState;
 
 // *****************************************************************************
 // *****************************************************************************

@@ -108,7 +108,6 @@ static uint32_t mlConnectAnimTickPrev = 0;
 static leFixedString statusStr;
 static leChar statusStrBuff[MAX_STATUS_LABEL_LENGTH] = {0};
 
-extern APP_BLE_DATA app_bleData;
 extern APP_BLE_DEVICE multiLinkDemoDevices[];
 
 // *****************************************************************************

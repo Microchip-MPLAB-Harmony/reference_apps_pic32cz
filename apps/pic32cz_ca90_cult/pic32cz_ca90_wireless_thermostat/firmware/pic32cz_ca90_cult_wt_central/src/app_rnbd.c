@@ -89,7 +89,6 @@ uint32_t ResponseTime=0;
 char dataReceived[400];
 static char cmdBuf[MAX_BUFFER_SIZE];    
 static char responseBuf[MAX_BUFFER_SIZE]={0};
-extern char statusBuffer[];
 extern APP_BLE_DEVICE multiLinkDemoDevices[MULTILINK_NUM_DEVICES];
 
 /*Function that reads the remote characteristic from GATT client*/

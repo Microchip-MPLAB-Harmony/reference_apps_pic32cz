@@ -106,7 +106,6 @@ static uint32_t mlMonitorAnimTickPrev = 0;
 leFixedString statusStr1;
 leChar statusStrBuff1[MAX_TEXT_LENGTH] = {0};
 
-extern APP_BLE_DATA app_bleData;
 extern char temperatureSTRING[];
 extern char sensorTemp1[];
 

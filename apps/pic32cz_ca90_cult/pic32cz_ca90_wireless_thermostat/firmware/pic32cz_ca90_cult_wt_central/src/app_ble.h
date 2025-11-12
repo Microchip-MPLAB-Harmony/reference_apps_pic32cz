@@ -157,8 +157,8 @@ typedef enum
     DEVMAX,
 } APP_BLE_DEVICE_ID;
 
-APP_BLE_DATA app_bleData;
-char statusBuffer[MAX_BUFFER_SIZE]; 
+extern APP_BLE_DATA app_bleData;
+extern char statusBuffer[MAX_BUFFER_SIZE];
 extern char sensorTemp1[5];
 extern char sensorTemp2[5];
 extern char temperatureSTRING[4];
