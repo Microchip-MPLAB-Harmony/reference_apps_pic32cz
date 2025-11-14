@@ -3,6 +3,30 @@
 
 # Microchip MPLAB® Harmony 3 Release Notes
 
+
+## Reference Applications for PIC32CZ MCUs Release v1.1.0
+
+The following table provides the list of new applications:
+
+| Application | Description | MCU | Development Board/Kit |
+| --- | --- | --- | --- |
+| [pic32cz_ca70_cult_getting_started](./apps/pic32cz_ca70_cult/pic32cz_ca70_cult_getting_started/readme.md) | Getting Started Application using Harmony v3 Plibs | [PIC32CZ CA70](https://www.microchip.com/wwwproducts/en/PIC32CZ2051CA70144)  | [PIC32CZ CA70 Curiosity Ultra Development Board](https://www.microchip.com/en-us/development-tool/ev56t44a)|
+| [pic32cz_ca70_cult_getting_started_drv](./apps/pic32cz_ca70_cult/pic32cz_ca70_cult_getting_started_drv/readme.md) | Getting Started Application using Harmony v3 Drivers (Baremetal) | [PIC32CZ CA70](https://www.microchip.com/wwwproducts/en/PIC32CZ2051CA70144)  | [PIC32CZ CA70 Curiosity Ultra Development Board](https://www.microchip.com/en-us/development-tool/ev56t44a)|
+| [pic32cz_ca70_cult_getting_started_freertos](./apps/pic32cz_ca70_cult/pic32cz_ca70_cult_getting_started_freertos/readme.md) | Getting Started Application using Harmony v3 Drivers (FreeRTOS) | [PIC32CZ CA70](https://www.microchip.com/wwwproducts/en/PIC32CZ2051CA70144)  | [PIC32CZ CA70 Curiosity Ultra Development Board](https://www.microchip.com/en-us/development-tool/ev56t44a)|
+
+
+### Known Issues
+- NA
+ 
+### Development Tools
+
+- [MPLAB® X IDE v6.25](https://www.microchip.com/mplab/mplab-x-ide)
+- [MPLAB® XC32 C/C++ Compiler v4.60](https://www.microchip.com/mplab/compilers)
+- MPLAB® X IDE plug-ins:
+  - MPLAB Code Configurator (MCC) v5.6.2   
+
+
+
 ## Reference Applications for PIC32CZ MCUs Release v1.0.0
 
 The following table provides the list of new applications:
