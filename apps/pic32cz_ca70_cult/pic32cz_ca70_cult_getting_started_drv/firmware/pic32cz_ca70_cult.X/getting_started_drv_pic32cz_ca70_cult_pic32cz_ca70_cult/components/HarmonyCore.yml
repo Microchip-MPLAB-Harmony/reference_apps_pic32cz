@@ -1,6 +1,6 @@
 configVersion: 1.0.0
 componentName: HarmonyCore
-coreVersion: 5.8.2
+coreVersion: 5.8.3
 device: PIC32CZ2051CA70144
 library: []
 dependency:
@@ -8,6 +8,10 @@ dependency:
   name: HarmonyCore
   type: module
   version: ''
+- dependencyPackage: ''
+  name: core
+  type: package
+  version: v3.15.5
 customDataClassName: com.microchip.utils_mh3.utils.persistence.CustomModuleData
 data:
   attachments: {}
