@@ -4,17 +4,17 @@
 
 
 project: pic32cz_ca70_getting_started
-creation_date: 2025-07-24T15:06:43.365+05:30[Asia/Calcutta]    # ISO 8601 format: https://www.w3.org/TR/NOTE-datetime
+creation_date: 2025-11-17T11:31:33.863+05:30[Asia/Calcutta]    # ISO 8601 format: https://www.w3.org/TR/NOTE-datetime
 operating_system: Windows 11
 mcc_mode: IDE            # [IDE|Standalone|Headless]
-mcc_version: v5.6.2
-mcc_core_version: v5.8.2
+mcc_version: v5.6.3
+mcc_core_version: v5.8.3
 mplabx_version: v6.25        # if MPLAB X plugin only
-harmony_version: v5.6.2
+harmony_version: v5.6.3
 compiler: XC32 4.60
 
 modules:
-    - {name: "csp", version: "v3.22.5"}
+    - {name: "csp", version: "v3.23.0"}
     - {name: "CMSIS_5", version: "5.9.0"}
 
 packs:
