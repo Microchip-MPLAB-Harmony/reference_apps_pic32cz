@@ -2,12 +2,12 @@
 
 manifest_file_version: 1.0.0
 project: pic32cz_ca70_getting_started
-creation_date: 2025-11-17T11:31:33.047+05:30[Asia/Calcutta]
+creation_date: 2025-11-06T14:32:47.635+05:30[Asia/Calcutta]
 operating_system: Windows 11
 mcc_mode: IDE
 mcc_mode_version: v6.25
 device_name: PIC32CZ2051CA70144
-compiler: XC32 4.60
+compiler: XC32 5.00
 mcc_version: 5.6.3
 mcc_core_version: 5.8.3
 content_manager_version: 6.0.3
