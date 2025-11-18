@@ -230,19 +230,19 @@
                      displayName="getting_started_drv_pic32cz_ca70_cult_pic32cz_ca70_cult"
                      projectFiles="true">
         <logicalFolder name="components" displayName="components" projectFiles="true">
-          <itemPath>getting_started_drv_pic32cz_ca70_cult_pic32cz_ca70_cult/components/HarmonyCore.yml</itemPath>
-          <itemPath>getting_started_drv_pic32cz_ca70_cult_pic32cz_ca70_cult/components/cmsis.yml</itemPath>
-          <itemPath>getting_started_drv_pic32cz_ca70_cult_pic32cz_ca70_cult/components/drv_i2c.yml</itemPath>
-          <itemPath>getting_started_drv_pic32cz_ca70_cult_pic32cz_ca70_cult/components/drv_i2c_0.yml</itemPath>
-          <itemPath>getting_started_drv_pic32cz_ca70_cult_pic32cz_ca70_cult/components/drv_usart_0.yml</itemPath>
+          <itemPath>getting_started_drv_pic32cz_ca70_cult_pic32cz_ca70_cult/components/core.yml</itemPath>
+          <itemPath>getting_started_drv_pic32cz_ca70_cult_pic32cz_ca70_cult/components/uart1.yml</itemPath>
           <itemPath>getting_started_drv_pic32cz_ca70_cult_pic32cz_ca70_cult/components/efc.yml</itemPath>
-          <itemPath>getting_started_drv_pic32cz_ca70_cult_pic32cz_ca70_cult/components/dfp.yml</itemPath>
           <itemPath>getting_started_drv_pic32cz_ca70_cult_pic32cz_ca70_cult/components/drv_usart.yml</itemPath>
           <itemPath>getting_started_drv_pic32cz_ca70_cult_pic32cz_ca70_cult/components/twihs0.yml</itemPath>
-          <itemPath>getting_started_drv_pic32cz_ca70_cult_pic32cz_ca70_cult/components/uart1.yml</itemPath>
-          <itemPath>getting_started_drv_pic32cz_ca70_cult_pic32cz_ca70_cult/components/core.yml</itemPath>
-          <itemPath>getting_started_drv_pic32cz_ca70_cult_pic32cz_ca70_cult/components/sys_time.yml</itemPath>
+          <itemPath>getting_started_drv_pic32cz_ca70_cult_pic32cz_ca70_cult/components/drv_i2c_0.yml</itemPath>
+          <itemPath>getting_started_drv_pic32cz_ca70_cult_pic32cz_ca70_cult/components/dfp.yml</itemPath>
+          <itemPath>getting_started_drv_pic32cz_ca70_cult_pic32cz_ca70_cult/components/drv_usart_0.yml</itemPath>
+          <itemPath>getting_started_drv_pic32cz_ca70_cult_pic32cz_ca70_cult/components/drv_i2c.yml</itemPath>
+          <itemPath>getting_started_drv_pic32cz_ca70_cult_pic32cz_ca70_cult/components/cmsis.yml</itemPath>
           <itemPath>getting_started_drv_pic32cz_ca70_cult_pic32cz_ca70_cult/components/tc0.yml</itemPath>
+          <itemPath>getting_started_drv_pic32cz_ca70_cult_pic32cz_ca70_cult/components/HarmonyCore.yml</itemPath>
+          <itemPath>getting_started_drv_pic32cz_ca70_cult_pic32cz_ca70_cult/components/sys_time.yml</itemPath>
         </logicalFolder>
         <itemPath>getting_started_drv_pic32cz_ca70_cult_pic32cz_ca70_cult/mcc-config.mc4</itemPath>
       </logicalFolder>
@@ -347,7 +347,7 @@
         <targetPluginBoard></targetPluginBoard>
         <platformTool>pkob4hybrid</platformTool>
         <languageToolchain>XC32</languageToolchain>
-        <languageToolchainVersion>4.60</languageToolchainVersion>
+        <languageToolchainVersion>5.00</languageToolchainVersion>
         <platform>3</platform>
       </toolsSet>
       <packs>
@@ -650,6 +650,8 @@
                   value="${memories.instruction.ram.ranges}"/>
         <property key="memories.programmemory" value="true"/>
         <property key="memories.programmemory.ranges" value="0-9fffffff"/>
+        <property key="programmerToGoFilePath"
+                  value="D:/DFT/firmware/pic32cz_ca70_cult.X/debug/pic32cz_ca70_cult/pic32cz_ca70_cult_ptg"/>
         <property key="programoptions.donoteraseauxmem" value="false"/>
         <property key="programoptions.eraseb4program" value="true"/>
         <property key="programoptions.pgmentry.voltage" value="low"/>
