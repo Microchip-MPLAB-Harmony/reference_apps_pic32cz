@@ -4,14 +4,14 @@
 
 
 project: getting_started_freertos_pic32cz_ca70_cult
-creation_date: 2025-11-17T11:43:00.180+05:30[Asia/Calcutta]    # ISO 8601 format: https://www.w3.org/TR/NOTE-datetime
+creation_date: 2025-11-06T15:04:24.245+05:30[Asia/Calcutta]    # ISO 8601 format: https://www.w3.org/TR/NOTE-datetime
 operating_system: Windows 11
 mcc_mode: IDE            # [IDE|Standalone|Headless]
 mcc_version: v5.6.3
 mcc_core_version: v5.8.3
 mplabx_version: v6.25        # if MPLAB X plugin only
 harmony_version: v5.6.3
-compiler: XC32 4.60
+compiler: XC32 5.00
 
 modules:
     - {name: "core", version: "v3.15.5"}

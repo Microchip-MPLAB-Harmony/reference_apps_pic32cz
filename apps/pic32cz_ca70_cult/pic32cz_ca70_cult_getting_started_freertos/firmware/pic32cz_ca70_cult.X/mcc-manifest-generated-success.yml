@@ -2,12 +2,12 @@
 
 manifest_file_version: 1.0.0
 project: getting_started_freertos_pic32cz_ca70_cult
-creation_date: 2025-11-17T11:42:59.519+05:30[Asia/Calcutta]
+creation_date: 2025-11-06T15:04:23.349+05:30[Asia/Calcutta]
 operating_system: Windows 11
 mcc_mode: IDE
 mcc_mode_version: v6.25
 device_name: PIC32CZ2051CA70144
-compiler: XC32 4.60
+compiler: XC32 5.00
 mcc_version: 5.6.3
 mcc_core_version: 5.8.3
 content_manager_version: 6.0.3
